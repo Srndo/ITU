@@ -1,21 +1,16 @@
 document.addEventListener('DOMContentLoaded', (event) => {console.log('DOM fully loaded');}, false);
 
-document.getElementById('favorite').addEventListener('click', change_favorite_icon, false);
-document.getElementById('favorite_1').addEventListener('click', change_favorite_icon, false);
-document.getElementById('favorite_2').addEventListener('click', change_favorite_icon, false);
-document.getElementById('favorite_3').addEventListener('click', change_favorite_icon, false);
+document.getElementById('option1').addEventListener('click', set_active, false);
+document.getElementById('option3').addEventListener('click', set_active, false);
+document.getElementById('option2').addEventListener('click', set_active, false);
 
 //need to get element by clicked to changed correct value 
-	function change_favorite_icon() {
-		let favorite = document.getElementById(event.target.id);
-		if(favorite.alt == "Favorite"){
-			favorite.src = "./img/icons/favorite.png";
-			favorite.alt = "Unfavorite";
-		}
-		else{
-			favorite.src = "./img/icons/un_favorite.png";
-			favorite.alt = "Favorite";	
-		}
+	function set_active() {
+
+		let activate = document.getElementById(event.target.id).parentElement;
+		let remove = document.getElementsByClassName("active");
+		remove[0].classList.remove("active");
+		activate.classList.add("active");
 	};
 
 
