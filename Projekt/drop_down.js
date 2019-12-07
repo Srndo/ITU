@@ -1,5 +1,7 @@
+// počká na načítanie dokumentu
 document.addEventListener('DOMContentLoaded', (event) => {console.log('DOM fully loaded');}, false);
 
+// priadí funkciu elementu s ID="save" po kliknutí na daný element sa vyskočí pop-up okno s hodnoutou "Add"
 document.getElementById('save').addEventListener('click', save_function, false);
 	function save_function() {
 	  alert("Add");
