@@ -11,6 +11,8 @@ chrome.storage.local.set({tags: {
 $('.chips').chips();
 chrome.storage.local.get(['tags'], function(result) {
 	$('#chips-tags').chips({
+		placeholder: "Tags",
+		secondaryPlaceholder: "add more tags...",
 		autocompleteOptions: {
 			data: result.tags,
 			limit: Infinity,

@@ -51,6 +51,11 @@ body {
 	margin-right: .5rem;
 }
 
+#tags-container > i {
+	padding: 0;
+	margin-top: .6rem;
+}
+
 #int-level, #ext-level {
 	margin-top: -.2rem;
 }
