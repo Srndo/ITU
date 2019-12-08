@@ -1,12 +1,22 @@
 {
-    "name": "ITU",
-    "version": "1.0",
+    "name": "Offliner",
+    "version": "0.2",
     "manifest_version": 2,
     "browser_action":{
         "default_popup": "drop_down.html",
-        "default_title": "ITU"
+        "default_title": "Offliner"
     },
     "permissions": [
-      "storage"
-    ]
+      "storage",
+      "desktopCapture",
+      "pageCapture",
+      "tabs"
+    ],
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "64": "icons/icon64.png",
+      "128": "icons/icon128.png"
+    }
 }
