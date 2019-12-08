@@ -11,80 +11,86 @@
 <body>
 
 		<div class="row">
+			<a href="saved_webs.html" target="_blank" class="waves-effect waves-light col s12 btn z-depth-0" id="saved-btn">
+				<img src="img/icons/book.svg" />
+				<span>My offline catalog</span>
+			</a>
+			<div class="divider col s12"></div>
       <div class="col s12" id="presets-container">
 				<!--Presets-->
 				<a class="waves-effect waves-light btn-large preset">Preset 1</a>
 				<a class="waves-effect waves-light btn-large preset">Preset 2</a>
 				<a class="waves-effect waves-light btn-large preset" id="add-preset-btn"><i class="material-icons">add</i></a>
 			</div>
-			<div class="input-field col s12 mb-0">
-        <input id="name" type="text">
-        <label for="name">Name</label>
-      </div>
+			<form>
+				<div class="input-field col s12 mb-0">
+	        <input id="name" type="text">
+	        <label for="name">Name</label>
+	      </div>
 
-			<div class="col s12 input-field mt0">
-				<div class="chips mt0" id="chips-tags"></div>
-				<label for="chips-tags">Tags</label>
-			</div>
-
-			<section class="col s12">
-				<div class="s-heading">Follow links</div>
-
-				<div class="row">
-					<label class="col s9">
-		        <input type="checkbox" class="filled-in" />
-		        <span>Follow internal links up to level:</span>
-	      	</label>
-					<div class="input-field col s3 m0">
-	          <input class="height-fix" id="int-level" type="number" value="1" min="1" max="5">
-        	</div>
-
-
-					<div class="col s12">Internal link mask:</div>
-
-
-					<label class="col s9">
-						<input type="checkbox" class="filled-in" />
-						<span>Follow external links up to level:</span>
-					</label>
-					<div class="input-field col s3 m0">
-						<input class="height-fix" id="ext-level" type="number" value="1" min="1" max="5">
-					</div>
+				<div class="col s12 input-field mt0">
+					<div class="chips mt0" id="chips-tags"></div>
+					<label for="chips-tags">Tags</label>
 				</div>
 
-			</section>
+				<section class="col s12">
+					<div class="s-heading">Follow links</div>
 
-			<section class="col s12">
-				<div class="s-heading">Save content</div>
+					<div class="row">
+						<label class="col s9">
+			        <input type="checkbox" class="filled-in" />
+			        <span>Follow internal links up to level:</span>
+		      	</label>
+						<div class="input-field col s3 m0">
+		          <input class="height-fix" id="int-level" type="number" value="1" min="1" max="5">
+	        	</div>
 
-				<p>
-					<label>
-		        <input type="checkbox" class="filled-in" checked="checked" />
-		        <span>Pictures</span>
-	      	</label>
-				</p>
 
-				<p>
-					<label>
-						<input type="checkbox" class="filled-in" checked="checked" />
-						<span>Sounds</span>
-					</label>
-				</p>
+						<div class="col s12">Internal link mask:</div>
 
-				<p>
-					<label>
-						<input type="checkbox" class="filled-in" checked="checked" />
-						<span>Videos</span>
-					</label>
-				</p>
 
-			</section>
+						<label class="col s9">
+							<input type="checkbox" class="filled-in" />
+							<span>Follow external links up to level:</span>
+						</label>
+						<div class="input-field col s3 m0">
+							<input class="height-fix" id="ext-level" type="number" value="1" min="1" max="5">
+						</div>
+					</div>
 
-			<div class="col s12 right-align">
-				<a id="help-btn" class="waves-effect waves-light btn"><i class="material-icons">help_outline</i></a>
-				<button type="submit" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>Download</a>
-			</div>
+				</section>
 
+				<section class="col s12">
+					<div class="s-heading">Save content</div>
+
+					<p>
+						<label>
+			        <input type="checkbox" class="filled-in" checked="checked" />
+			        <span>Pictures</span>
+		      	</label>
+					</p>
+
+					<p>
+						<label>
+							<input type="checkbox" class="filled-in" checked="checked" />
+							<span>Sounds</span>
+						</label>
+					</p>
+
+					<p>
+						<label>
+							<input type="checkbox" class="filled-in" checked="checked" />
+							<span>Videos</span>
+						</label>
+					</p>
+
+				</section>
+
+				<div class="col s12 right-align">
+					<a id="help-btn" class="waves-effect waves-light btn"><i class="material-icons">help_outline</i></a>
+					<button type="submit" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>Download</a>
+				</div>
+			</form>
     </div>
 
 

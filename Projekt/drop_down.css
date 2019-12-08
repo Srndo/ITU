@@ -11,6 +11,31 @@ body {
 	margin-bottom: 1rem;
 }
 
+#saved-btn {
+	display: flex;
+	align-items: center;
+	color: inherit;
+	text-transform: none;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #F2F4F5;
+}
+
+#saved-btn:hover {
+	background-color: #d9dbdc;
+}
+
+#saved-btn img {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-left: .5rem;
+}
+
+#saved-btn span {
+	margin-left: 1rem;
+	font-size: 1rem;
+}
+
 #presets-container {
 	margin-top: 1rem;
 	padding-bottom: 1rem;
