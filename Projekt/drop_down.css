@@ -3,6 +3,10 @@ body {
 	background-color: #F2F4F5;
 }
 
+.text {
+	font-size: 1rem;
+}
+
 .s-heading {
 	font-size: 1rem;
 	letter-spacing: .1rem;
@@ -60,6 +64,42 @@ body {
 	margin-top: -.2rem;
 }
 
+#mask-picker {
+	width: 100%;
+	border: 2px solid #5a5a5a;
+	border-radius: 2px;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: stretch;
+}
+
+#mask-picker button {
+	width: 5%;
+	height: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #26a69a;
+	overflow: hidden;
+}
+
+#mask-picker button:active {
+	background-color: #009688;
+}
+
+#mask-picker i {
+	font-size: 1rem;
+	padding: 50% 0 50% 0;
+	color: white;
+}
+
+#mask-textarea {
+	width: 80%;
+	border-style: none;
+	font-size: 1rem;
+	padding: .5rem 1rem .5rem 1rem;
+}
+
 #save-content {
 	margin-bottom: 1rem;
 }
@@ -84,6 +124,10 @@ body {
 
 .p0 {
 	padding: 0 !important;
+}
+
+.pr0 {
+	padding-right: 0 !important;
 }
 
 .height-fix {
