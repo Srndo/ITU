@@ -2,35 +2,94 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Drop down</title>
-	<link rel="stylesheet" href="drop_down.css" type="text/css"></link>
+	<title>Dropdown</title>
+	<link rel="stylesheet" href="drop_down.css" type="text/css">
+	<link rel="stylesheet" href="materialize/css/materialize.css" type="text/css">
+	<link rel="stylesheet" href="materialize/css/material-icons.css" type="text/css">
 </head>
-<body>
-	<div class="main" id="save">
-		<span class="left"><img src="./img/icons/save-icon-invert.png"></span>
-		<span class="right">SAVE</span>
-	</div>
-	
-	<div class="main" id="save_depth">
-		<span class="left"><img src="./img/icons/save-icon-invert.png"></span>
-		<span class="right">SAVE WITH DEPTH</span>
-	</div>
-	
-	<div class="main" id="save_no_pictures">
-		<span class="left"><img src="./img/icons/save-icon-invert.png"></span>
-		<span class="right">SAVE WITHOUT PICTURES</span>
-	</div>
-	
-	<div class="main" id="save_print">
-		<span class="left"><img src="./img/icons/save-icon-invert.png"></span>
-		<span class="right">SAVE AS PRINT</span>
-	</div>
 
-	<div class="main" id="show_saved">
-		<span class="left"><img src="./img/icons/save-icon-invert.png"></span>
-		<span class="right">SHOW SAVED</span>
-	</div>
+<body>
+
+		<div class="row">
+      <div class="col s12" id="presets-container">
+				<!--Presets-->
+				<a class="waves-effect waves-light btn-large preset">Preset 1</a>
+				<a class="waves-effect waves-light btn-large preset">Preset 2</a>
+				<a class="waves-effect waves-light btn-large preset" id="add-preset-btn"><i class="material-icons">add</i></a>
+			</div>
+			<div class="input-field col s12 mb-0">
+        <input id="name" type="text">
+        <label for="name">Name</label>
+      </div>
+
+			<div class="col s12 input-field mt0">
+				<div class="chips mt0" id="chips-tags"></div>
+				<label for="chips-tags">Tags</label>
+			</div>
+
+			<section class="col s12">
+				<div class="s-heading">Follow links</div>
+
+				<div class="row">
+					<label class="col s9">
+		        <input type="checkbox" class="filled-in" />
+		        <span>Follow internal links up to level:</span>
+	      	</label>
+					<div class="input-field col s3 m0">
+	          <input class="height-fix" id="int-level" type="number" value="1" min="1" max="5">
+        	</div>
+
+
+					<div class="col s12">Internal link mask:</div>
+
+
+					<label class="col s9">
+						<input type="checkbox" class="filled-in" />
+						<span>Follow external links up to level:</span>
+					</label>
+					<div class="input-field col s3 m0">
+						<input class="height-fix" id="ext-level" type="number" value="1" min="1" max="5">
+					</div>
+				</div>
+
+			</section>
+
+			<section class="col s12">
+				<div class="s-heading">Save content</div>
+
+				<p>
+					<label>
+		        <input type="checkbox" class="filled-in" checked="checked" />
+		        <span>Pictures</span>
+	      	</label>
+				</p>
+
+				<p>
+					<label>
+						<input type="checkbox" class="filled-in" checked="checked" />
+						<span>Sounds</span>
+					</label>
+				</p>
+
+				<p>
+					<label>
+						<input type="checkbox" class="filled-in" checked="checked" />
+						<span>Videos</span>
+					</label>
+				</p>
+
+			</section>
+
+			<div class="col s12 right-align">
+				<a id="help-btn" class="waves-effect waves-light btn"><i class="material-icons">help_outline</i></a>
+				<button type="submit" class="waves-effect waves-light btn"><i class="material-icons left">file_download</i>Download</a>
+			</div>
+
+    </div>
+
 
 </body>
+	<script src="jquery/jquery-3.4.1.js" type="text/javascript"></script>
+	<script src="materialize/js/materialize.min.js" type="text/javascript"></script>
 	<script src="drop_down.js" charset="utf-8" type="text/javascript"></script>
 </html>

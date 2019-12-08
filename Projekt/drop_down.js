@@ -1,7 +1,31 @@
 // počká na načítanie dokumentu
 document.addEventListener('DOMContentLoaded', (event) => {console.log('DOM fully loaded');}, false);
 
+// Inicializácia tagov
+chrome.storage.local.set({tags: {
+	'Tag1' : null,
+	'Tag2' : null,
+}});
+
+
+$('.chips').chips();
+chrome.storage.local.get(['tags'], function(result) {
+	$('#chips-tags').chips({
+		autocompleteOptions: {
+			data: result.tags,
+			limit: Infinity,
+			minLength: 1
+		}
+	});
+});
+
+chrome.tabs.query({active : true, currentWindow: true}, function(tab) {
+  $('name').value = tab.title;
+	$('name').focus();
+});
+
 // priadí funkciu elementu s ID="save" po kliknutí na daný element sa vyskočí pop-up okno s hodnoutou "Add"
+/*
 document.getElementById('save').addEventListener('click', save_function, false);
 	function save_function() {
 	  alert("Add");
@@ -25,3 +49,4 @@ document.getElementById('show_saved').addEventListener('click', show_saved_funct
 	function show_saved_function() {
 	  window.open("./saved_webs.html");
 };
+*/
