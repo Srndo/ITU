@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from matematika.cz/upravy-rovnic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:18:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Vydavatelství Nová média, s. r. o." />
+    <meta property="og:image" content="images/web/logo-min.png">
+    <meta name="keywords" content="matematika, polopatě, příklady, výpočet, počítání, řešení, funkce, návody, postupy, vysvětlení" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="sources/styles/styly79ee.css?version=5" media="screen">
+        
+        
+        <link rel="home" href="index.html" title="Matematika polopatě">
+    <title>Ekvivalentní úpravy rovnic — Matematika.cz</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> -->
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link href='../fonts.googleapis.com/cssb5c9.css?family=Open+Sans:400italic,400,800,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='../fonts.googleapis.com/css43e8.css?family=Roboto+Condensed:700|Roboto:400,400italic,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<!-- Tento tag vložte do části <head> vašeho dokumentu-->
+<link href="../plus.google.com/106738392831664880938/index.html" rel="publisher" />
+
+<script type="text/javascript" src="test/js/jquery.min.js"></script>
+<script type="text/javascript" src="test/js/jquery.hoveraccordion.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Setup HoverAccordion for Example 1
+        $('#example1').hoverAccordion({activateItem: false});
+        $('#article-chapters, #article-chapters-button').toggle();
+    });
+</script>
+<script type="text/javascript">
+function toggle_chapters () {
+    $('#article-chapters,').toggle();
+    el = $('#article-chapters-button');
+    content = el.html();
+    if (content.indexOf("Skrýt") != -1) {
+        el.html(content.replace("Skrýt", "Zobrazit"));
+    } else {
+        el.html(content.replace("Zobrazit", "Skrýt"));
+    }
+    return false;
+}
+</script>
+<script type="text/javascript">
+
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-1559810-1']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+
+</script>
+
+<!-- Customized Google Analytics tracking code by H1.cz -->
+<script type="text/javascript" src="sources/javascript/analytics.js"></script>
+<script type="text/javascript"><!--
+_ga.create('UA-1559810-1', '.matematika.cz');
+_gaq.push(['_trackPageview']);
+//--></script>
+
+<style type="text/css">
+    #lista-media {
+    background: #f0f0f0;
+    height: 45px;
+    width: 1050px;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -4px;
+    }
+.lista-media-polozka-aktivni {
+    background: #fff;
+    color: #000;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-aktivni:hover {
+    background: #fff;
+    color: #000; 
+    }
+.lista-media-polozka-neaktivni {
+    background: url("../konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi1.png") repeat-x;
+    color: #b1b1b1;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-neaktivni:hover {
+    background: url("../www.konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi2.html") repeat-x;
+    color: #000;    
+    }
+#lista-media-polozka-last {
+    height: 30px;
+    width: 202px;
+    margin-right: 0px;
+    padding-top: 16px;
+    text-align: center;
+    float: left;
+    }
+</style>
+<script async='async' src='../www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/300x250-4', [300, 250], 'div-gpt-ad-1491809363047-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/1050-200-header', [1050, 200], 'div-gpt-ad-1486737245871-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body id="strana-upravy-rovnic" style="margin-left: auto; margin-right: auto; position: relative">
+
+<div id="fb-root"></div> 
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "../connect.facebook.net/cs_CZ/all.js#xfbml=1"; 
+fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+<div style="text-align: center;">
+    <a href="http://www.strojirenstvi.cz/"><img src="content/sda-kon/limec-strojirenstvi-horni.png" height="200"></a>
+</div>
+
+<div style="margin-left: 50%; position: fixed;">
+    <a href="http://www.strojirenstvi.cz/">
+        <span style="display: block; width: 427px; height: 1225px; position: absolute; right: 525px; top: -203px; background-image: url('content/sda-kon/limec-strojirenstvi-levy.png'); background-position: right; background-repeat: no-repeat" id="levy"></span>
+    </a>
+
+    <a href="http://www.strojirenstvi.cz/" style="display: block">
+        <span style="position: absolute; top: 0; left: 523px; display: block; width: 427px; top: -203px; height: 1225px; background-image: url('content/sda-kon/limec-strojirenstvi-pravy.png'); background-position: left; background-repeat: no-repeat" id="pravy"></span>
+    </a>
+</div>
+
+
+
+<div id="inhalt">
+
+
+
+<div id="lista-media">
+<a href="http://www.strojirenstvi.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">STROJIRENSTVI.CZ</span></a>
+<a href="http://www.konstrukter.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">KONSTRUKTER.CZ</span></a>
+<a href="http://www.3d-tisk.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">3D-TISK.CZ</span></a>
+<a href="index.html"><span id="lista-media-polozka" class="lista-media-polozka-aktivni">MATEMATIKA.CZ</span></a>
+<a href="http://www.novamedia.cz/"><span id="lista-media-polozka-last" class="lista-media-polozka-neaktivni">NOVAMEDIA.CZ</span></a>
+</div><!--end:lista-media-->
+
+
+<div id="wrapper">
+
+        <div id="header">
+            
+        <!--<div id="reklama-970">REKLAMA</div>
+            <div id="ad-970x90">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+            style="display:inline-block;width:970px;height:90px"
+            data-ad-client="ca-pub-4489054294017543"
+            data-ad-slot="7778942712"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>      
+        </div>-->
+
+        <!-- /117050822/300x250-4 -->
+
+        
+        <div id="header-left">
+
+            <div class="clear"></div>
+
+            <div id="header-left-logo">
+             <a href="index.html">
+                <span class="logo">
+                <img src="content/newfiles/matematika-cz-logo.png" alt="Matematika.cz - matematika polopatě" />
+                </span><!--end: logo-->
+            </a>
+            </div><!--end: header-left-logo-->
+
+        </div><!--end: header-left-->
+
+        <div id="header-right">
+
+            <div id="hledani">
+                <div id="search">
+                    <form method="get" id="searchform" action="https://matematika.cz/sources/open/search.php">
+                    <input class="searchinput" type="text" value="Hledáte něco?" onfocus="if(this.value == this.defaultValue) this.value='';" onblur="if(this.value == '') this.value=this.defaultValue;" name="q" id="s" />
+        </div><!--end: search-->
+                <div id="lupa"></div>
+        </form> 
+        
+            <a href="http://forum.matematika.cz/"><span id="skola-forum" style="display: block"></span></a>
+            <a href="matematika-pro-vysoke-skoly.html"><span id="skola-vs" style="display: block"></span></a>
+            <a href="matematika-pro-stredni-skoly.html"><span id="skola-ss" style="display: block"></span></a>   
+            <a href="matematika-pro-zakladni-skoly.html"><span id="skola-zs" style="display: block"></span></a>
+        
+        </div><!--end: hledani-->
+
+        </div><!--end: header-right-->
+
+        </div><!--end: header-->
+
+        
+<!--konec zahlavi - zacatek tela clanku-->
+
+     <!--start: content-->                                    
+
+    <div id="content"><div class="obsah"><div id="result"></div><h1><span>Ekvivalentní úpravy rovnic</span></h1><div class="web"><div class='article-chapters'><strong><a href='#' onclick='return toggle_chapters();' id='article-chapters-button'>Zobrazit kapitoly článku</a></strong> <ol id='article-chapters'><li>Ekvivalentní úpravy rovnic</li><li><a href='https://matematika.cz/upravy-nerovnic'>Ekvivalentní úpravy nerovnic</a></li></ol></div><p class="perex">Při úpravách rovnic používáme ekvivalentní úpravy, které se vyznačují tím, že nezmění platnost rovnice. Smyslem ekvivalentních úprav je dostat rovnici do nějakého jednoduššího tvaru, ze kterého už můžeme vypočítat výsledek rovnice. </p>
+
+<h2 id="co-je-to-rovnice"><span>Co je to rovnice</span>&nbsp;<a class="headerlink" href="#co-je-to-rovnice">#</a></h2>
+
+<p>Nejprve stručně o tom, co je to rovnice a jak ji budeme zapisovat. Pokud máme dvě <a href="funkce.html">funkce</a> <span class="inline-math">f(x)</span> a <span class="inline-math">g(x)</span>, pak je můžeme položit do rovnosti a získat rovnici:</p>
+
+<div class="blatex proc">\[f(x)=g(x)\]</div>
+
+<p>V tomto případě nazýváme <span class="inline-math">f(x)</span> levou stranou rovnice a <span class="inline-math">g(x)</span> pravou stranu. Za abstraktní funkce <span class="inline-math">f(x)</span> a <span class="inline-math">g(x)</span> si můžeme představit konkrétní funkce, například <span class="inline-math">f(x) = 3x</span> a <span class="inline-math">g(x) = x + 2</span>. Pak by rovnice vypadala takto:</p>
+
+<div class="blatex proc">\[3x=x+2\]</div>
+
+<p>Řešením rovnice je pak <a href="mnoziny.html">množina</a> (například) <span class="inline-math">S</span>, kde pro každé <span class="inline-math">x</span> z množiny <span class="inline-math">S</span> platí, po dosazení do rovnice daná rovnice stále platí. Takže řešením ukázkové rovnice by byla množina</p>
+
+<div class="blatex proc">\[S=\left\{1\right\}.\]</div>
+
+<p>Po dosazení do rovnice získáváme</p>
+
+<div class="blatex proc">\[3\cdot1=1+2\]</div>
+
+<p>Ekvivalentní úprava rovnice je pak taková úprava, která nezmění platnost rovnice. Tedy ekvivalentní úpravou by byla úprava, kdy bychom z funkce <span class="inline-math">f(x)</span> získali funkci <span class="inline-math">f<sub>1</sub>(x)</span> a stejnou úpravou bychom z funkce <span class="inline-math">g(x)</span> získali <span class="inline-math">g<sub>1</sub>(x)</span> a přesto by stále platila rovnost</p>
+
+<div class="blatex proc">\[f_1(x)=g_1(x).\]</div>
+
+<p>První a nejjednodušší ekvivalentní úprava rovnic (ne nerovnic!)  je prohození levé a pravé strany. Asi je zřejmé, že pokud platí</p>
+
+<div class="blatex proc">\[f(x)=g(x),\]</div>
+
+<p>tak bude platit i jejich prohození</p>
+
+<div class="blatex proc">\[g(x)=f(x).\]</div>
+
+<p>Více se o rovnicích věnuji v článku <a href="rovnice.html">Co je to rovnice</a>.</p>
+
+<h2 id="pricitani"><span>Přičítání</span>&nbsp;<a class="headerlink" href="#pricitani">#</a></h2>
+
+<p>Nejjednodušším příkladem je přičítání nějakého výrazu k oběma stranám rovnice. Ekvivalentní úpravu vždy aplikujeme na obě strany rovnice. Takže mějme tuto rovnici:</p>
+
+<div class="blatex proc">\[x-3=1.\]</div>
+
+<p>Tuto rovnici můžeme vyřešit tak, že k oběma stranám přičteme číslo tři. Při úpravách rovnic obvykle danou úpravu zapisujeme za lomítko v řádku, kde jsme s úpravou začali, takto</p>
+
+<div class="blatex proc">\[\begin{eqnarray}x-3&amp;=&amp;1\quad /+3\\3+x-3&amp;=&amp;1+3\\x&amp;=&amp;4\end{eqnarray}\]</div>
+
+<p>Obecně můžeme zapsat, že máme-li opět dvě funkce <span class="inline-math">f(x)</span> a <span class="inline-math">g(x)</span>, můžeme k nim přičíst třetí funkci <span class="inline-math">h(x)</span> a nezměníme platnost rovnice.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}f(x)&amp;=&amp;g(x)\quad/+h(x)\\f(x)+h(x)&amp;=&amp;g(x)+h(x)\end{eqnarray}\]</div>
+
+<p>Jak je vidět, nemusíme přičítat pouze číslo, můžeme přičítat i funkci:</p>
+
+<div class="blatex proc">\[x=2x+6\]</div>
+
+<p>Dle zvyku chceme mít proměnné nalevo, čehož dosáhneme tak, že k rovnici přičteme <span class="inline-math">−2x</span>, respektive odečteme <span class="inline-math">2x</span>.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}x&amp;=&amp;2x+6\quad/-2x\\x-2x&amp;=&amp;2x-2x+6\\-x&amp;=&amp;6\\x&amp;=&amp;-6\end{eqnarray}\]</div>
+
+<p>Přičítat můžeme samozřejmě i zlomky, pokud se vám to hodí.</p>
+
+<div class="blatex proc">\[x-\frac12=471\]</div>
+
+<p>Přičteme jednu polovinu a máme výsledek:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}x-\frac12&amp;=&amp;471\quad/+\frac12\\x-\frac12+\frac12&amp;=&amp;471+\frac12\\x&amp;=&amp;471,5\end{eqnarray}\]</div>
+
+<p>Přičítání k rovnici klasicky využijete v případě, kdy chcete &#8222;přehodit&#8220; výraz z jedné strany rovnice na druhou stranu rovnice. Pokud máte rovnici</p>
+
+<div class="blatex proc">\[3=2x+17,\]</div>
+
+<p>tak jak dostanete výraz s proměnnou, tj. <span class="inline-math">2x</span> na levou stranu rovnice? Jednoduše k celé rovnici přičtete <span class="inline-math">−2x</span>. Tím dostanete na pravé straně rovnice místo <span class="inline-math">2x</span> nulu, protože <span class="inline-math">2x − 2x = 0</span>. A na druhé straně dostaneme <span class="inline-math">−2x</span>:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}3&amp;=&amp;2x+17\quad/-2x\\3-2x&amp;=&amp;2x-2x+17\\3-2x&amp;=&amp;17\end{eqnarray}\]</div>
+
+<h2 id="nasobeni"><span>Násobení</span>&nbsp;<a class="headerlink" href="#nasobeni">#</a></h2>
+
+<p>Rovnici také můžeme <a href="nasobeni.html">vynásobit</a> nějakou funkcí. Jedinou podmínkou je, že ta funkce nesmí být nulová. Nemůžeme rovnici vynásobit nulou, ani nějakou funkcí, která by se na nulu dala upravit, například <span class="inline-math">f(x) = x − x</span>. Takže pokud máme rovnici</p>
+
+<div class="blatex proc">\[3x=7,\]</div>
+
+<p>můžeme ji vynásobit dvojkou:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}3x&amp;=&amp;7\quad/\cdot2\\2\cdot3x&amp;=&amp;2\cdot7\\6x&amp;=&amp;14\end{eqnarray}\]</div>
+
+<p>Tohle asi nemělo moc velký smysl, násobení se používá například ve chvíli, kdy se potřebujete zbavit zlomků:</p>
+
+<div class="blatex proc">\[3=\frac{2}{5x}\]</div>
+
+<p>Pokud tuto rovnici vynásobíme jmenovatele zlomku na pravé straně rovnice, tak se výraz <span class="inline-math">5x</span> krásně zkrátí díky <a href="zlomky.html">vlastnostem zlomků</a>.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}3&amp;=&amp;\frac{2}{5x}\quad/\cdot5x\\5x\cdot3&amp;=&amp;5x\cdot\frac{2}{5x}\\\end{eqnarray}\]</div>
+
+<p>Teď vynásobíme zlomek <span class="inline-math">5x</span>, čímž se <span class="inline-math">5x</span> dostane do čitatele zlomku a následně můžeme výraz <span class="inline-math">5x</span> zkrátit, protože ho máme jak ve jmenovateli, tak i v čitateli.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}15x&amp;=&amp;\frac{5x\cdot2}{5x}\\15x&amp;=&amp;2\\\end{eqnarray}\]</div>
+
+<p>Na začátku této části jsem říkal, že nesmíme násobit nulou. Nyní jsme násobili výrazem <span class="inline-math">5x</span> &#8211; jenže tento výraz obsahuje proměnnou a pokud do této proměnné dosadíme nulu, vyjde i celá proměnná nula a vida, už násobíme nulou. Co s tím?</p>
+
+<p>Řeší se to tak, že se určí podmínky, za kterých tuto úpravu můžeme provést. V tuto chvíli tak musíme napsat, že násobit <span class="inline-math">5x</span> můžeme jen za předpokladu, že <span class="inline-math">x</span> bude různé od nuly. Ale teď se ještě podívejme na rovnici, kterou jsme násobili. Výraz <span class="inline-math">5x</span> už tam je obsažen a je ve jmenovateli zlomku. Co to znamená? Nemůžeme dělit nulou, takže už sám <a href="definicni-obor.html">definiční obor</a> funkce <span class="inline-math">5x</span> vylučuje, aby se <span class="inline-math">x</span> rovnalo nule. </p>
+
+<p>Takže ještě jednou &#8211; rovnice obsahuje zlomek s výrazem <span class="inline-math">5x</span> ve jmenovateli. Protože nemůžeme dělit nulou, tak rovnice má smysl jen za předpokladu, že <span class="inline-math">x</span> je různé od nuly. Proto můžeme celou rovnici bez starosti vynásobit <span class="inline-math">5x</span>, protože nutné podmínky nám už obstará definiční obor funkce ve jmenovateli.</p>
+
+<h2 id="nasobeni-slozitejsimi-vyrazy"><span>Násobení složitějšími výrazy</span>&nbsp;<a class="headerlink" href="#nasobeni-slozitejsimi-vyrazy">#</a></h2>
+
+<p>Teď důležitá poznámka k tomu, že pokud násobíme rovnici nějakým výrazem, musíme vždy násobit celou pravou stranu a celou levou stranu. Pro příklad si vezměme tuto rovnici: </p>
+
+<div class="blatex proc">\[x+2=x-4\]</div>
+
+<p>Pokud bychom ji chtěli vynásobit dvojkou, museli bychom násobit celé strany, takto:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}2\cdot(x+2)&amp;=&amp;2\cdot(x-4)\\2x+4&amp;=&amp;2x-8\end{eqnarray}\]</div>
+
+<p>Chybou by bylo nenapsat tam ty závorky, protože bychom dostali chybný výsledek:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}2\cdot x+2&amp;=&amp;2\cdot x-4\\2x+2&amp;=&amp;2x-4\end{eqnarray}\]</div>
+
+<p>Vidíte, že výsledek je jiný než v předchozím případě. Obdobně pokud násobíte složitějším výrazem, musíte násobit celou rovnici. Pro příklad si vezmeme rovnici</p>
+
+<div class="blatex proc">\[2x+1=\frac{2}{x+3}.\]</div>
+
+<p>Tuto rovnici vynásobíme výrazem <span class="inline-math">x + 3</span>, abychom se zbavili proměnné ve jmenovateli na pravé straně.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}2x+1&amp;=&amp;\frac{2}{x+3}\quad /\cdot(x+3)\\(x+3)(2x+1)&amp;=&amp;(x+3)\frac{2}{x+3}\\(x+3)(2x+1)&amp;=&amp;\frac{2(x+3)}{x+3}\end{eqnarray}\]</div>
+
+<p>Zlomek máme ve tvaru, kdy ho můžeme hezky pokrátit výrazem <span class="inline-math">x + 3</span>:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}(x+3)(2x+1)&amp;=&amp;\frac{2(x+3)}{x+3}\\(x+3)(2x+1)&amp;=&amp;2\end{eqnarray}\]</div>
+
+<p>Teď ještě můžeme roznásobit levou stranu rovnice a nakonec odečíst dvojku, abychom &#8222;přesunuli&#8220; dvojku na levou stranu, čímž dostaneme na pravé straně nulu.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}(x+3)(2x+1)&amp;=&amp;2\\2x^2+x+6x+3&amp;=&amp;2\\2x^2+7x+3&amp;=&amp;2\quad/-2\\2x^2+7x+1&amp;=&amp;0\end{eqnarray}\]</div>
+
+<h2 id="deleni"><span>Dělení</span>&nbsp;<a class="headerlink" href="#deleni">#</a></h2>
+
+<p>Stejně jako můžeme rovnici násobit, můžeme ji také dělit. Se stejným omezením, jako v případě násobení &#8211; nesmíme dělit nulou. Dělení můžeme totiž jednoduše proměnit na násobení. Pokud chceme rovnici vydělit výrazem <span class="inline-math">w</span>, bude to stejné, jako kdybychom rovnici vynásobili <a href="zlomky.html">zlomkem</a> <span class="inline-math">1/w</span>. Dělení se používá často v příkladech jako je například tento:</p>
+
+<div class="blatex proc">\[12x=7\]</div>
+
+<p>Tohle je typ rovnice, se kterou toho už moc neuděláme, můžeme jedině vydělit celou rovnici dvanácti, čímž získáme hodnotu <span class="inline-math">x</span>.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}12x&amp;=&amp;7\quad/:12\\x&amp;=&amp;\frac{7}{12}\end{eqnarray}\]</div>
+
+<p>Stejný výsledek bychom dostali, kdybychom rovnici vynásobili <span class="inline-math">1/12</span>:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}12x&amp;=&amp;7\quad/\cdot\frac{1}{12}\\12x\cdot\frac{1}{12}&amp;=&amp;7\cdot\frac{1}{12}\\\frac{12x}{12}&amp;=&amp;\frac{7}{12}\\x&amp;=&amp;\frac{7}{12}\end{eqnarray}\]</div>
+
+<h2 id="umocneni"><span>Umocnění</span>&nbsp;<a class="headerlink" href="#umocneni">#</a></h2>
+
+<p>Při úpravách rovnic můžeme používat i <a href="mocniny.html">mocniny</a>, ale s jistými omezeními. Nejdříve si osvěžíme znalosti mocnin. Platí tato rovnost?</p>
+
+<div class="blatex proc">\[\sqrt{x^2}=x\]</div>
+
+<p>Pokud umocníte nějaké číslo na druhou a následně provedete druhou <a href="odmocniny.html">odmocninu</a>, dostanete zpět původní číslo? Tohle je zákeřná otázka a odpovědí je, že ne vždy. Představte si, že za <span class="inline-math">x</span> dosadíte záporné číslo, například minus tři:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\sqrt{(-3)^2}&amp;=&amp;-3\\\sqrt{9}&amp;=&amp;-3\\3&amp;\ne&amp;-3\end{eqnarray}\]</div>
+
+<p>Jak je vidět, rovnice najednou neplatí, protože když umocníme na druhou záporné číslo, dostaneme kladné číslo. Ale pokud zpět odmocníme kladné číslo, dostaneme zase kladné číslo. Kdy by tato rovnost platila? V případě, kdy víme, že pracujeme jen s kladnými, respektive nezápornými, čísly. Rovnici si tak můžeme dovolit umocnit v případě, že víme, že pracujeme s kladnými čísly. </p>
+
+<p>Například v <a href="kategorie-geometrie.html">geometrii</a> často počítáme nějaké rovnice, které obsahují délky nějakých úseček a v tuto chvíli můžeme bez obav i umocňovat, protože délka jako taková nemůže být záporná. I při umocnění nebo odmocnění platí pravidlo, že musíme umocnit celou rovnici. Takže příklad:</p>
+
+<div class="blatex proc">\[\sqrt{x+2}=x+4\]</div>
+
+<p>Předpokládejme, že se pohybujeme pouze v kladných číslech, proto si můžeme dovolit umocnit celou rovnici na druhou:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\sqrt{x+2}&amp;=&amp;x+4\quad/^2\\\left(\sqrt{x+2}\right)^2&amp;=&amp;(x+4)^2\\x+2&amp;=&amp;x^2+8x+16\\x^2+7x+14&amp;=&amp;0\end{eqnarray}\]</div>
+
+<p>Dostali jsme <a href="kvadraticke-rovnice.html">kvadratickou rovnici</a>, kterou můžeme řešit prostředky popsanými v článku.</p>
+
+<p>Jak by se řešila rovnice, kde potřebuje umocnit na druhou, ale nemůžete si být jisti, jestli se pohybujete jen v kladných číslech? Jednoduše to umocníte a potom provedete zkoušku, tím umocnění totiž můžete získat výsledky, které nejsou správnými výsledky rovnice. Takže příklad:</p>
+
+<div class="blatex proc">\[\sqrt{x}=x-2\]</div>
+
+<p>Rovnici nyní umocníme na druhou:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\sqrt{x}&amp;=&amp;x-2\quad/^2\\\left(\sqrt{x}\right)^2&amp;=&amp;(x-2)^2\\x&amp;=&amp;x^2-4x+4\\x^2-5x+4&amp;=&amp;0\end{eqnarray}\]</div>
+
+<p>Opět dostáváme <a href="kvadraticke-rovnice.html">kvadratickou rovnici</a>, takže ji vyřešíme nějakou vhodnou technikou, například rozkladem (přesný postup je v odkázaném článku):</p>
+
+<div class="blatex proc">\[(x-1)(x-4)=0\]</div>
+
+<p>Vidíme, že jeden výsledek je 1 a druhý 4. Ovšem víme, že jsme provedli neekvivalentní úpravu, takže musíme ještě provést zkoušku. Dosadíme tato řešení do původní rovnice a zjistíme, který z těch výsledků je platným výsledkem původní rovnice. Nejdříve dosadíme jedničku:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\sqrt{x}&amp;=&amp;x-2\\\sqrt{1}&amp;=&amp;1-2\\1&amp;\ne&amp;-1\end{eqnarray}\]</div>
+
+<p>Ověřením jsme zjistili, že jednička není řešením původní rovnice. Co čtyřka?</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\sqrt{x}&amp;=&amp;x-2\\\sqrt{4}&amp;=&amp;4-2\\2&amp;=&amp;2\end{eqnarray}\]</div>
+
+<p>Čtyřka je řešením původní rovnice, našli jsme výsledek. </p><div class='nextpreviouslinkscara' style='clear:both;'>&nbsp;</div><div class='nextpreviouslinks'><div class='nextlink'><a rel='next' href='https://matematika.cz/upravy-nerovnic'>Další: Ekvivalentní úpravy nerovnic »</a></div></div></div>
+<div class="clear"></div>
+
+        </div><!--end: entry-->
+
+      </div><!--end: content-->
+
+<!--konec tela clanku - zacatek sidebaru-->
+
+﻿<div id="sidebar"> 
+
+ <!--inzerce 300x250-->
+          <div id="reklama">REKLAMA</div>
+          <div class="ad300x250"><!-- /117050822/300x250-4 -->
+<div id='div-gpt-ad-1491809363047-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1491809363047-0'); });
+</script>
+</div></div><!--konec inzerce 300x250-->
+
+            <div class="clear"></div>
+          
+          <div class="menu-sidebar">           
+           
+           
+           
+          
+    <a name="ex1" id="ex1"></a>
+    <ul id="example1">
+        </li>
+<li><span><a href="kategorie-zakladni-skola.html">Základní škola</a></span><ul class="navclanky"><li ><a href="scitani-odecitani.html">Sčítání a odečítání</a></li>
+<li ><a href="nasobeni.html">Násobení</a></li>
+<li ><a href="deleni.html">Dělení čísel</a></li>
+<li ><a href="mnohocleny.html">Mnohočleny</a></li>
+<li ><a href="deleni-mnohoclenu.html">Dělení mnohočlenů</a></li>
+<li ><a href="lomene-vyrazy.html">Lomené výrazy</a></li>
+<li ><a href="zlomky.html">Zlomky</a></li>
+<li ><a href="vytykani.html">Vytýkání</a></li>
+<li ><a href="procenta.html">Procenta</a></li>
+<li ><a href="zaokrouhlovani.html">Zaokrouhlování</a></li>
+<li ><a href="trojclenka.html">Trojčlenka</a></li>
+<li ><a href="spolecna-prace.html">Společná práce</a></li>
+</ul></li>
+<li><span><a href="kategorie-funkce.html">Funkce</a></span><ul class="navclanky"><li ><a href="co-je-to-funkce.html">Funkce</a></li>
+<li ><a href="funkce.html">Vlastnosti funkce</a></li>
+<li ><a href="definicni-obor.html">Definiční obor</a></li>
+<li ><a href="inverzni-funkce.html">Inverzní funkce</a></li>
+<li ><a href="suda-licha.html">Sudá a lichá funkce</a></li>
+<li ><a href="linearni-funkce.html">Lineární funkce</a></li>
+<li ><a href="mocniny.html">Mocniny</a></li>
+<li ><a href="odmocniny.html">Odmocniny</a></li>
+<li ><a href="exponencialni-funkce.html">Exponenciální funkce</a></li>
+<li ><a href="logaritmy.html">Logaritmy</a></li>
+<li ><a href="kvadraticka-funkce.html">Kvadratické funkce</a></li>
+<li ><a href="goniometrie.html">Goniometrické funkce</a></li>
+</ul></li>
+<li class="aktivni active"><span><a href="kategorie-rovnice-nerovnice.html">Rovnice a nerovnice</a></span><ul class="navclanky"><li ><a href="rovnice.html">Co je to rovnice</a></li>
+<li  class='akt'><a href="upravy-rovnic.html">Ekvivalentní úpravy</a></li>
+<li ><a href="linearni-rovnice.html">Lineární rovnice</a></li>
+<li ><a href="kvadraticke-rovnice.html">Kvadratická rovnice</a></li>
+<li ><a href="binomicke-rovnice.html">Binomické rovnice</a></li>
+<li ><a href="linearni-nerovnice.html">Lineární nerovnice</a></li>
+<li ><a href="kvadraticke-nerovnice.html">Kvadratická nerovnice</a></li>
+<li ><a href="exponencialni-rovnice.html">Exponenciální rovnice</a></li>
+<li ><a href="goniometricke-rovnice.html">Goniometrické rovnice</a></li>
+<li ><a href="soustavy-rovnic.html">Soustavy rovnic</a></li>
+</ul></li>
+<li><span><a href="kategorie-cisla.html">Čísla</a></span><ul class="navclanky"><li ><a href="prirozena-cisla.html">Přirozená čísla</a></li>
+<li ><a href="cela-cisla.html">Celá čísla</a></li>
+<li ><a href="racionalni-cisla.html">Racionální čísla</a></li>
+<li ><a href="iracionalni-cisla.html">Iracionální čísla</a></li>
+<li ><a href="realna-cisla.html">Reálná čísla</a></li>
+<li ><a href="komplexni-cisla.html">Komplexní čísla</a></li>
+<li ><a href="prvocisla.html">Prvočísla</a></li>
+<li ><a href="prevod.html">Převody soustav</a></li>
+<li ><a href="mnoziny.html">Množiny</a></li>
+<li ><a href="uroky.html">Úroky</a></li>
+<li ><a href="interval.html">Interval</a></li>
+<li ><a href="nekonecno.html">Nekonečno</a></li>
+<li ><a href="doplneni-ctverec.html">Doplnění na čtverec</a></li>
+</ul></li>
+<li><span><a href="kategorie-geometrie.html">Geometrie</a></span><ul class="navclanky"><li ><a href="geometrie.html">Geometrické pojmy</a></li>
+<li ><a href="primka.html">Přímka</a></li>
+<li ><a href="uhel.html">Úhel</a></li>
+<li ><a href="ctverec.html">Čtverec</a></li>
+<li ><a href="obdelnik.html">Obdélník</a></li>
+<li ><a href="objemy-obsahy.html">Objemy a obsahy</a></li>
+<li ><a href="trojuhelnik.html">Trojúhelníky</a></li>
+<li ><a href="kruznice.html">Kružnice</a></li>
+<li ><a href="kuzelosecky.html">Kuželosečky</a></li>
+<li ><a href="euklidovy-vety.html">Euklidovy věty</a></li>
+<li ><a href="vzorce-geometrie.html">Vzorce</a></li>
+</ul></li>
+<li><span><a href="kategorie-kombinatorika.html">Kombinatorika</a></span><ul class="navclanky"><li ><a href="kombinatorika.html">Kombinatorika</a></li>
+<li ><a href="pravdepodobnost.html">Pravděpodobnost</a></li>
+<li ><a href="tri-dvere.html">Paradoxy</a></li>
+<li ><a href="bezpecnost-hesla.html">Bezpečnost hesla</a></li>
+<li ><a href="zaklady-statistiky.html">Základy statistiky</a></li>
+<li ><a href="binomicka-veta.html">Binomická věta</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyticka-geometrie.html">Analytická geometrie</a></span><ul class="navclanky"><li ><a href="vektory.html">Vektory</a></li>
+<li ><a href="parametricka-rovnice-primky.html">Rovnice přímky</a></li>
+<li ><a href="vzajemna-poloha-primek.html">Vzájemná poloha přímek</a></li>
+<li ><a href="rovnice-roviny.html">Rovnice roviny</a></li>
+<li ><a href="vzdalenost-bod-primka.html">Metrické vlastnosti</a></li>
+</ul></li>
+<li><span><a href="kategorie-statistika.html">Statistika</a></span><ul class="navclanky"><li ><a href="zakladni-pojmy-statistiky.html">Základní pojmy statistiky</a></li>
+<li ><a href="rozlozeni-cetnosti.html">Rozložení četnosti</a></li>
+<li ><a href="prumer.html">Průměr, medián a modus</a></li>
+<li ><a href="rozptyl.html">Rozptyl</a></li>
+<li ><a href="smerodatna-odchylka.html">Směrodatná odchylka</a></li>
+<li ><a href="rozlozeni-pravdepodobnosti.html">Rozložení pravděpodobnosti</a></li>
+<li ><a href="rovnomerne-normalni-rozlozeni.html">Rovnoměrné a normální rozložení</a></li>
+</ul></li>
+<li><span><a href="kategorie-dukazy.html">Důkazy</a></span><ul class="navclanky"><li ><a href="dukazy.html">Co je to důkaz</a></li>
+<li ><a href="dukaz-sporem.html">Důkaz sporem</a></li>
+<li ><a href="matematicka-indukce.html">Matematická indukce</a></li>
+</ul></li>
+<li><span><a href="kategorie-ostatni.html">Ostatní</a></span><ul class="navclanky"><li ><a href="vyroky.html">Logika</a></li>
+<li ><a href="ukazky-testu.html">Ukázky testů</a></li>
+<li ><a href="hlavolamy.html">Hlavolamy</a></li>
+<li ><a href="absolutni-hodnota.html">Absolutní hodnota</a></li>
+<li ><a href="faktorial.html">Faktoriál</a></li>
+<li ><a href="pomery.html">Poměry</a></li>
+<li ><a href="vyjadreni-promenne.html">Vyjádření proměnné</a></li>
+<li ><a href="symboly.html">Matematické symboly</a></li>
+<li ><a href="nastroje.html">Matematické nástroje</a></li>
+<li ><a href="mapa.html">Měřítko mapy</a></li>
+<li ><a href="ciselne-rady.html">Číselné řady</a></li>
+</ul></li>
+<li><span><a href="kategorie-maturita.html">Maturita</a></span><ul class="navclanky"><li ><a href="maturita-2013-ilustracni.html">Maturita 2013 Ilustrační test</a></li>
+<li ><a href="maturita-2013-jaro.html">Maturita 2013 jaro</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyza.html">Analýza</a></span><ul class="navclanky"><li ><a href="posloupnosti.html">Posloupnosti</a></li>
+<li ><a href="limita-posloupnosti.html">Limita posloupnosti</a></li>
+<li ><a href="limita-funkce.html">Limita funkce</a></li>
+<li ><a href="spojitost-funkce.html">Spojitost funkce</a></li>
+<li ><a href="derivace.html">Derivace funkce</a></li>
+<li ><a href="derivace-priklady.html">Příklady na derivace</a></li>
+<li ><a href="derivace-pokrocile-priklady.html">Příklady na derivace #2</a></li>
+<li ><a href="derivace-vzorce.html">Vzorce pro derivace</a></li>
+<li ><a href="prubeh-funkce.html">Průběh funkce</a></li>
+<li ><a href="integral.html">Integrály</a></li>
+</ul></li>
+<li><span><a href="kategorie-linearni-algebra.html">Lineární algebra</a></span><ul class="navclanky"><li ><a href="telesa.html">Tělesa</a></li>
+<li ><a href="relace.html">Relace</a></li>
+<li ><a href="matice.html">Matice</a></li>
+<li ><a href="hodnost-matice.html">Hodnost matice</a></li>
+<li ><a href="inverzni-matice.html">Inverzní matice</a></li>
+<li ><a href="determinanty.html">Determinanty</a></li>
+<li ><a href="systemy-linearnich-rovnic.html">Systémy lineárních rovnic</a></li>
+<li ><a href="vektorove-prostory.html">Vektorové prostory</a></li>
+</ul></li>
+<li><span><a href="kategorie-informatika.html">Informatika</a></span><ul class="navclanky"><li ><a href="formalni-jazyky.html">Formální jazyky</a></li>
+<li ><a href="konecny-automat.html">Konečné automaty</a></li>
+<li ><a href="nedosazitelne-stavy.html">Redukce KA</a></li>
+<li ><a href="uzavrenost-regularnich-jazyku.html">Uzavřenost regulárních jazyků</a></li>
+<li ><a href="regularni-vyrazy.html">Regulární výrazy</a></li>
+</ul></li>
+<li><span><a href="kategorie-kryptografie.html">Kryptografie a šifrování</a></span><ul class="navclanky"><li ><a href="kryptografie.html">Kryptografie</a></li>
+<li ><a href="caesarova-sifra.html">Caesarova šifra</a></li>
+<li ><a href="vigenerova-sifra.html">Vigenèrova šifra</a></li>
+</ul></li>       
+    </ul>
+           
+           
+          </div><!--end: menu-sidebar-->
+
+<div id="facebook-page">
+<div class="fb-like-box" data-href="https://www.facebook.com/matematika.cz" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+</div><!--end: facebook-page-->
+</div>
+<!--konec sidebaru - zacatek zapati-->
+      
+      <div class="clear"></div>
+
+     <div id="footer">
+        
+        <div class="left">
+              <a href="o-webu.html">O webu</a> | <a href="kontakt.html">Kontakt</a>
+          </div><!--end: left-->
+  
+           <div class="right">
+          <a href="http://www.novamedia.cz/">Vydavatelství Nová média, s. r. o.</a> &copy; 2006&mdash;2014
+          </div><!--end: right-->
+
+     <div class="clear"></div>
+
+    </div><!--end: footer-->
+
+    <div class="clear"></div>
+
+</div><!--end: wrapper-->
+
+</div><!--end: inhalt-->
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJaxdda6.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+<!-- Mirrored from matematika.cz/upravy-rovnic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:18:40 GMT -->
+</html>

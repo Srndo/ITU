@@ -1,0 +1,413 @@
+
+/*                                  2018
+    when all messages modernised - incl guestbook,
+    this file can be incorporated back into default
+*/
+
+
+/* RESET ZEND CSS */
+fieldset#add_book_msg {
+    width: 645px; height: initial;
+    margin-bottom: 20px;
+}
+dl.zend_form {
+    margin-top: 0px;
+}
+/* very bad practice, you must use important in every subsequent css */
+a.role_admin { color: initial !important; }
+
+/* Main Form div */
+div#add_message {
+    float: left;
+    position: fixed;
+    bottom: 10px;
+    max-width: 680px;
+    margin: 0px 0px 0px -9px;
+    background-color: white;
+    box-shadow: 0px 5px 20px 5px rgba(150,150,150,0.8);
+    border-radius: 6px;
+    z-index: 5;
+}
+
+
+/* FAKE divs */
+.add_message_fake {
+}
+.fake_textarea {
+    margin: 15px 15px 15px 15px;
+    width: 220px; height: 24px;
+    border-radius: 6px;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 1.5;
+    color: red;
+    overflow: hidden;
+}
+
+
+                                        /* FORM */
+.add_message_head {
+    float: left;
+    width: 100%;
+    height: 18px;
+    display: none;
+}
+#add_message_close {
+    width: 14px; height: 14px;
+    float: right;
+    margin: 4px 4px 0px 0px;
+    color: silver;
+    cursor: pointer;
+}
+
+div#add_message fieldset {
+    height: initial;
+    margin-left: 0px;
+}
+#add_book_msg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+}
+/*  Problém s margin 10px - rozhodi login form, pokud se msg includuje mimo postu
+    docasny fix do zmeny vzhledu v CssJs.php */
+#nick-label {
+    clear: none;
+    float: left;
+    width: 60px;
+    margin: 0px 0px 0px 10px;
+}
+div#add_message div#smiles {
+    margin: 10px 0px 0px 18px;
+    width: 190px;
+}
+
+
+/* TEXTAREA
+thx precise min-height no resize on fisrt line
+chrome adds 2px padding and 1px border on every side - height/width must be bigger by tis
+*/
+
+.msgtextarea_in_container {
+    width: 645px;
+    float: left;
+}
+
+#msgtextarea_container {
+    float: left;
+    margin: 8px 0px 0px 0px;
+    overflow: hidden;
+}
+.message_tarea {
+    width: 508px; height: 70px;
+    min-height: 46px;
+    max-height: 208px;
+    resize: none;
+    overflow: hidden;
+    border: 1px solid silver;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 140%;
+}
+.message_tarea:focus {
+    border: 1px solid #0692FA;
+}
+
+.msgtextarea_rightbuttons {
+    margin: 8px 0px 0px 0px;
+    width: 130px;
+    min-height: 70px;
+    float: left;
+}
+.msgtextarea_rightbuttons_in {
+    position: absolute;
+    bottom: 20px;
+}
+
+.message_send_button {
+    height: 34px;
+    margin-top: auto;
+
+    border: 1px solid #2678F9;
+    background: #2678F9;
+
+    font-size: 15px;
+    color: white;
+    font-family: Verdana;
+    line-height: 1.5;
+
+    border-radius: 6px;
+}
+fieldset#add_book_msg input#Submit {
+    width: 120px;
+    margin: 8px 0px 0px 10px;
+    cursor: pointer;
+}
+
+
+/* smiles menu */
+
+.dropdown{
+    position: relative;
+    float: left;
+}
+.dropdown-button{
+    width: 30px; height: 30px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    background-color: #fff;
+    background: url("https://img.karaoketexty.cz/img/smiles_menu_button.png") no-repeat;
+    outline: 0;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    bottom:100%; top:auto; left:0; right:auto;
+
+    margin: 0px 0px 0px -85px;
+    min-width: 80px;
+    border-radius: 6px;
+    border: 1px solid silver;
+    background-color: #fff;
+    display: none;
+    z-index: 1300;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-menu_comment {
+    position: absolute;
+    bottom:100%; top:auto; left:0; right:auto;
+
+    margin: 0px 0px 0px -45px;
+    min-width: 80px;
+    border-radius: 6px;
+    border: 1px solid silver;
+    background-color: #fff;
+    display: none;
+    z-index: 1300;
+}
+.dropdown:hover .dropdown-menu_comment {
+    display: block;
+}
+.dropdown-menu_comment a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+                                        /* ZPRAVY */
+
+.msg_container {
+    text-decoration: none;
+
+    width: 680px;
+    border: 0px;
+    margin: 0px 0px 20px 0px;
+    float: left;
+}
+
+.msg_container a:link { text-decoration: none; }
+.msg_container a:visited { text-decoration: none; }
+.msg_container a:hover { text-decoration: none; }
+.msg_container a:active { text-decoration: none; }
+
+
+.msg_container:hover .msg_sideicons {
+    color: #707070;
+}
+
+
+.msg_photo_posta {
+    width: 60px; height: 60px;
+    margin: 0px 20px 0px 0px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.msg_header {
+    width: 100%; height: 24px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    font-size: 16px;
+    line-height: 100%;
+}
+.send_arrow {
+    line-height: 100%;
+    color: red;
+}
+
+.name_to {
+    font-size: 16px;
+    margin: 0px 5px 0px 0px;
+}
+.name_to a:link { color: #484848 !important; }
+.name_to a:visited { color: #484848 !important; }
+.name_to a:hover { color: #484848 !important; }
+.name_to a:active { color: #484848 !important; }
+
+.name_from {
+    font-size: 16px;
+    margin: 0px 5px 0px 0px;
+}
+.name_from a:link { color: #0683FF !important; }
+.name_from a:visited { color: #0683FF !important; }
+.name_from a:hover { color: #0683FF !important; }
+.name_from a:active { color: #0683FF !important; }
+/* #7C3E31 */
+
+.ts {
+    font-size: 12px;
+    color: #909090;
+}
+
+
+.links {
+    font-size: 16px;
+    color: #808080;
+}
+.links a:link { color: #808080; }
+.links a:visited { color: #808080; }
+.links a:hover { color: #808080; }
+.links a:active { color: #808080; }
+
+.msg_sideicons {
+    width: 10px; height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 5px;
+    color: silver;
+    font-size: 24px;
+    float: left;
+    background-image: url("https://img.karaoketexty.cz/img/default/msg_sideicon_slim.png");
+	background-repeat: no-repeat;
+    overflow: hidden;
+}
+.msg_sideicons:after {
+    /* content: "\2807"; */
+}
+
+/*
+.msg_sideicons:hover:after {
+    color: black;
+}
+*/
+
+.msg_sideicons_menu {
+	position: absolute;
+	width: 140px; min-height: 24px;
+	margin: 25px 0px 0px -150px;
+	padding: 10px 10px 0px 10px;
+	font-size: 14px;
+	color: black;
+	border: 1px solid silver;
+	background-color: white;
+	box-shadow:
+	0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: none;
+}
+
+.msg_delbutton {
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+}
+.msg_dellink {
+    position: relative;
+    top: -5px;
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+}
+
+
+.msg_footer {
+	width: 100%;
+	padding: 1px 0px 0px 10px;
+	float: left;
+}
+
+
+.msg_body_container_out {
+    max-width: 590px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 140%;
+    float: left;
+}
+.msg_body_container1 {
+    max-width: 540px;
+    padding: 8px 10px 5px 10px;
+    float: left;
+    border-radius: 10px;
+    background-color: #D7FCC6;
+    overflow: hidden;
+}
+.msg_body_container2 {
+    max-width: 540px;
+    padding: 8px 10px 5px 10px;
+    float: left;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    overflow: hidden;
+}
+.msg_body {
+    /* float: left; */
+    /* word-wrap: break-word; */
+}
+.msg_body a {
+    font-size: 14px;
+}
+
+
+                                        /* CONTACTS */
+
+.msgscontacts_cont {
+    float: left;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.msgscontacts_row {
+    float: left;
+    width: 100%;
+    padding: 5px 0px 5px 20px;
+}
+
+.msgscontacts_photo {
+    float: left;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+.msgscontacts_photo_inelem {
+    margin: 0px 0px 0px -6px;
+}
+.msgscontacts_online {
+    float: left;
+    margin: 28px 0px 0px -16px;
+    height: 12px;
+    width: 12px;
+    background-color: #FFA637;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+}
+.msgscontacts_name {
+    float: left;
+    margin: 15px 0px 0px 12px;
+    font-size: 15px;
+}
