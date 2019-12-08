@@ -16,20 +16,3 @@ document.getElementById('option2').addEventListener('click', set_active, false);
 		// aktivácia stlačeného presetu
 		activate.classList.add("active");
 	};
-
-	/* 
-		funkcie nižšie sú dáke z internetu čo som dávnejšie našiel
-		maly by appendovať html template ktorý sa vytvorí
-	*/ 	
-	function generate_div() {
-		var html = "";
-		var data = "favorite_1";
-		html += loadTemplate("row_template", data);
-		//Now you have the dynamic html, use wherever you want
-		document.getElementById("content").innerHTML = html;
-	}
-
-	function loadTemplate(template_id, data) {
-		var template = document.getElementById(template_id).innerHTML;
-		return eval('`' + template + '`');
-	}
