@@ -1,16 +1,12 @@
+// author: Marek Stastny
 
-
-if( ! navigator.onLine) { 
+if(  navigator.onLine) { 
 	hide_elem("offlinePage");
 	show_elem("search");
 }else{
 	hide_elem("search");
 	show_elem("offlinePage");
-
 }
-
-//document.addEventListener('DOMContentLoaded', (event) => {console.log("ahoj"); swap("offlinePage");swap("search"); }, false);
-
 
 function swap(name) {
   var x = document.getElementById(name);
@@ -19,10 +15,6 @@ function swap(name) {
   } else {
     x.style.display = "none";
   }
-}
-
-function hide_iframe(){
-	document.getElementById("if1").remove();
 }
 
 function hide_elem(name){
@@ -34,5 +26,4 @@ function hide_elem(name){
 function show_elem(name){
   var x = document.getElementById(name);
     x.style.display = "block";
-
 }
