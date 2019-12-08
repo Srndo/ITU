@@ -56,6 +56,10 @@ body {
 	margin-top: -.2rem;
 }
 
+#save-content {
+	margin-bottom: 1rem;
+}
+
 #help-btn {
 	padding-left: .7rem !important;
 	padding-right: .7rem !important;
