@@ -1,0 +1,51 @@
+.star {
+    visibility:hidden;
+    font-size: 40px;
+    cursor:pointer;
+
+    position: absolute;
+    top: 2.5%;
+    left: 10%;
+
+    color: #ffc107;
+    background-color: black
+}
+.star:before {
+   content: "\2605";
+   position: absolute;
+   visibility:visible;
+}
+.star:checked:before {
+   content: "\2606";
+   position: absolute;
+}
+
+.right-column{
+	background-color: #DFDFDF;
+	padding-top: 3.5%;
+	min-height: 1000px
+}
+
+.card-caption{
+	display:flex;
+	align-items: center
+}
+
+.icon-width{
+	width: 75%
+}
+
+.left-column{
+	background-color:  #C0C0C0;
+	padding-top: 3.5%;
+	font-weight: bold;
+	min-height: 1000px
+}
+
+.margin-buttoms{
+	margin-top: 3.5%
+}
+
+.checkbox-padding{
+	padding-left: 3%
+}
