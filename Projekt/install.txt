@@ -1,0 +1,9 @@
+1. Otvoriť prehliadač Google Chrome.
+2. Do adresného riadka zadajte adresu chrome://extensions/. Alternatívne,
+   v hamburger menu v pravom hornom rohu zvoliť "Nastavenia" a v nich
+   "Rozšírenia" z ľavého menu.
+3. V pravom hornom rohu je nutné zapnúť prepínač "Režim pre vývojárov"
+   (Development mode).
+4. Na novej lište pod hlavičkou je treba zvoliť možnosť "Načítať rozbalené"
+   (Load unpacked). V dialógu treba následne vybrať priečinok s rozšírením.
+5. Rozšírenie je pripravené v hornej lište prehliadača!
