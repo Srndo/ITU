@@ -1,13 +1,16 @@
+/**
+*	Autor: Michal Pospíšil
+* Projekt: ITU - Oflline prehliadanie súborov
+* Súbor drop_down.js
+**/
 // počká na načítanie dokumentu
-document.addEventListener('DOMContentLoaded', (event) => {console.log('DOM fully loaded');}, false);
+//document.addEventListener('DOMContentLoaded', (event) => {console.log('DOM fully loaded');}, false);
 
 // Inicializácia tagov
 chrome.storage.local.set({tags: {
-	'Tag1' : null,
-	'Tag2' : null,
+	'laptop' : null,
+	'phone' : null,
 }});
-
-
 $('.chips').chips();
 chrome.storage.local.get(['tags'], function(result) {
 	$('#chips-tags').chips({
@@ -21,9 +24,22 @@ chrome.storage.local.get(['tags'], function(result) {
 	});
 });
 
+// Nastavenie masky z URL
+function setLinkMask(url) {
+	var urlProtoless = url.split("://")[1];
+	$('#mask-textarea')[0].value = urlProtoless;
+}
+
+// Inicializácia názvu uloženej stránky title elementom
+function setSaveName(title) {
+	$('#name')[0].value = ;
+	$('#name')[0].focus();
+}
+
+// Dopyt na aktuálne nastavenú kartu
 chrome.tabs.query({active : true, currentWindow: true}, function(tab) {
-  $('name').value = tab.title;
-	$('name').focus();
+	setSaveName(tab[0]['title']);
+	setLinkMask(tab[0]['url']);
 });
 
 // priadí funkciu elementu s ID="save" po kliknutí na daný element sa vyskočí pop-up okno s hodnoutou "Add"
