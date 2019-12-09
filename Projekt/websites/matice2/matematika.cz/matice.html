@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from matematika.cz/matice by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:14:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Vydavatelství Nová média, s. r. o." />
+    <meta property="og:image" content="images/web/logo-min.png">
+    <meta name="keywords" content="matematika, polopatě, příklady, výpočet, počítání, řešení, funkce, návody, postupy, vysvětlení" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="sources/styles/styly79ee.css?version=5" media="screen">
+        
+        
+        <link rel="home" href="index.html" title="Matematika polopatě">
+    <title>Matice — Matematika.cz</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> -->
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link href='../fonts.googleapis.com/cssb5c9.css?family=Open+Sans:400italic,400,800,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='../fonts.googleapis.com/css43e8.css?family=Roboto+Condensed:700|Roboto:400,400italic,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<!-- Tento tag vložte do části <head> vašeho dokumentu-->
+<link href="../plus.google.com/106738392831664880938/index.html" rel="publisher" />
+
+<script type="text/javascript" src="test/js/jquery.min.js"></script>
+<script type="text/javascript" src="test/js/jquery.hoveraccordion.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Setup HoverAccordion for Example 1
+        $('#example1').hoverAccordion({activateItem: false});
+        $('#article-chapters, #article-chapters-button').toggle();
+    });
+</script>
+<script type="text/javascript">
+function toggle_chapters () {
+    $('#article-chapters,').toggle();
+    el = $('#article-chapters-button');
+    content = el.html();
+    if (content.indexOf("Skrýt") != -1) {
+        el.html(content.replace("Skrýt", "Zobrazit"));
+    } else {
+        el.html(content.replace("Zobrazit", "Skrýt"));
+    }
+    return false;
+}
+</script>
+<script type="text/javascript">
+
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-1559810-1']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+
+</script>
+
+<!-- Customized Google Analytics tracking code by H1.cz -->
+<script type="text/javascript" src="sources/javascript/analytics.js"></script>
+<script type="text/javascript"><!--
+_ga.create('UA-1559810-1', '.matematika.cz');
+_gaq.push(['_trackPageview']);
+//--></script>
+
+<style type="text/css">
+    #lista-media {
+    background: #f0f0f0;
+    height: 45px;
+    width: 1050px;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -4px;
+    }
+.lista-media-polozka-aktivni {
+    background: #fff;
+    color: #000;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-aktivni:hover {
+    background: #fff;
+    color: #000; 
+    }
+.lista-media-polozka-neaktivni {
+    background: url("../konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi1.png") repeat-x;
+    color: #b1b1b1;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-neaktivni:hover {
+    background: url("../www.konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi2.html") repeat-x;
+    color: #000;    
+    }
+#lista-media-polozka-last {
+    height: 30px;
+    width: 202px;
+    margin-right: 0px;
+    padding-top: 16px;
+    text-align: center;
+    float: left;
+    }
+</style>
+<script async='async' src='../www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/300x250-4', [300, 250], 'div-gpt-ad-1491809363047-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/1050-200-header', [1050, 200], 'div-gpt-ad-1486737245871-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body id="strana-matice" style="margin-left: auto; margin-right: auto; position: relative">
+
+<div id="fb-root"></div> 
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "../connect.facebook.net/cs_CZ/all.js#xfbml=1"; 
+fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+<div style="text-align: center;">
+    <a href="http://www.strojirenstvi.cz/"><img src="content/sda-kon/limec-strojirenstvi-horni.png" height="200"></a>
+</div>
+
+<div style="margin-left: 50%; position: fixed;">
+    <a href="http://www.strojirenstvi.cz/">
+        <span style="display: block; width: 427px; height: 1225px; position: absolute; right: 525px; top: -203px; background-image: url('content/sda-kon/limec-strojirenstvi-levy.png'); background-position: right; background-repeat: no-repeat" id="levy"></span>
+    </a>
+
+    <a href="http://www.strojirenstvi.cz/" style="display: block">
+        <span style="position: absolute; top: 0; left: 523px; display: block; width: 427px; top: -203px; height: 1225px; background-image: url('content/sda-kon/limec-strojirenstvi-pravy.png'); background-position: left; background-repeat: no-repeat" id="pravy"></span>
+    </a>
+</div>
+
+
+
+<div id="inhalt">
+
+
+
+<div id="lista-media">
+<a href="http://www.strojirenstvi.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">STROJIRENSTVI.CZ</span></a>
+<a href="http://www.konstrukter.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">KONSTRUKTER.CZ</span></a>
+<a href="http://www.3d-tisk.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">3D-TISK.CZ</span></a>
+<a href="index.html"><span id="lista-media-polozka" class="lista-media-polozka-aktivni">MATEMATIKA.CZ</span></a>
+<a href="http://www.novamedia.cz/"><span id="lista-media-polozka-last" class="lista-media-polozka-neaktivni">NOVAMEDIA.CZ</span></a>
+</div><!--end:lista-media-->
+
+
+<div id="wrapper">
+
+        <div id="header">
+            
+        <!--<div id="reklama-970">REKLAMA</div>
+            <div id="ad-970x90">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+            style="display:inline-block;width:970px;height:90px"
+            data-ad-client="ca-pub-4489054294017543"
+            data-ad-slot="7778942712"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>      
+        </div>-->
+
+        <!-- /117050822/300x250-4 -->
+
+        
+        <div id="header-left">
+
+            <div class="clear"></div>
+
+            <div id="header-left-logo">
+             <a href="index.html">
+                <span class="logo">
+                <img src="content/newfiles/matematika-cz-logo.png" alt="Matematika.cz - matematika polopatě" />
+                </span><!--end: logo-->
+            </a>
+            </div><!--end: header-left-logo-->
+
+        </div><!--end: header-left-->
+
+        <div id="header-right">
+
+            <div id="hledani">
+                <div id="search">
+                    <form method="get" id="searchform" action="https://matematika.cz/sources/open/search.php">
+                    <input class="searchinput" type="text" value="Hledáte něco?" onfocus="if(this.value == this.defaultValue) this.value='';" onblur="if(this.value == '') this.value=this.defaultValue;" name="q" id="s" />
+        </div><!--end: search-->
+                <div id="lupa"></div>
+        </form> 
+        
+            <a href="http://forum.matematika.cz/"><span id="skola-forum" style="display: block"></span></a>
+            <a href="matematika-pro-vysoke-skoly.html"><span id="skola-vs" style="display: block"></span></a>
+            <a href="matematika-pro-stredni-skoly.html"><span id="skola-ss" style="display: block"></span></a>   
+            <a href="matematika-pro-zakladni-skoly.html"><span id="skola-zs" style="display: block"></span></a>
+        
+        </div><!--end: hledani-->
+
+        </div><!--end: header-right-->
+
+        </div><!--end: header-->
+
+        
+<!--konec zahlavi - zacatek tela clanku-->
+
+     <!--start: content-->                                    
+
+    <div id="content"><div class="obsah"><div id="result"></div><h1><span>Matice</span></h1><div class="web"><p class="perex">Matice nad <a href="telesa.html">tělesem</a> P je zobrazení \(\left\{1, 2, \ldots, n\right\} \times \left\{1, 2, \ldots, m\right\} \rightarrow P\). Matice se obvykle označuje velkými tiskacími písmeny: <span class="inline-math">A  =  (&#8230;)</span>. A teď česky.</p>
+
+<h2 id="zakladni-pojmy"><span>Základní pojmy</span>&nbsp;<a class="headerlink" href="#zakladni-pojmy">#</a></h2>
+
+<p>Matice je zkrátka jakási tabulka o n sloupcích a m řádcích, přičemž toto značení řádků a sloupců nemusí být vždy stejné, na to pozor. V každé buňce tabulky je poté nějaké číslo nebo jiný výraz. Matice nemusí být pouze čistě číselná, i když se ze začátku dost pravděpodobně s jinými maticemi nesetkáte. Takže jak asi může vypadat matice:</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}0&amp;1&amp;5\\8&amp;5&amp;51\end{array}\right)\]</div>
+
+<p>Tato matice má dva řádky a tři sloupce. Prvky matice se značí pomocí indexů a namísto velkého písmene se používá malé písmeno: <span class="inline-math">a<sub>11</sub>  =  0</span> nebo <span class="inline-math">a<sub>23</sub>  =  51</span>. První index udává řádek a druhý index sloupec.</p>
+
+<h2 id="specialni-typy-matic"><span>Speciální typy matic</span>&nbsp;<a class="headerlink" href="#specialni-typy-matic">#</a></h2>
+
+<p>Matice mohou mít různé vlastnosti a některé speciální matice mají dokonce své vlastní názvy.</p>
+
+<p><strong>Čtvercová matice</strong> je matice, která má stejný počet řádků jako sloupců. Pokud není matice čtvercová, je obdélníková. Příklad čtvercové matice:</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}0&amp;1&amp;5\\8&amp;5&amp;23\\47&amp;154&amp;2\end{array}\right)\]</div>
+
+<p><strong>Nulová matice</strong> je matice, která má na všech pozicích nuly. <span class="inline-math">a<sub>ij</sub>  =  0</span>.</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}0&amp;0&amp;0\\0&amp;0&amp;0\\0&amp;0&amp;0\end{array}\right)\]</div>
+
+<p><strong>Jednotková matice</strong> je čtvercová matice, která má na hlavní diagonále jedničky a všude jinde nuly. Hlavní diagonála je jakoby „úhlopříčka“ zleva doprava. Zkrátka jsou to čísla na souřadnicích, kde se <span class="inline-math">i  =  j</span>. </p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}1&amp;0&amp;0\\0&amp;1&amp;0\\0&amp;0&amp;1\end{array}\right)\]</div>
+
+<p><strong>Schodovitá matice</strong> je matice, která má nulové řádky na konci (nebo nemá žádné nulové řádky) a každý nenulový řádek má na začátku více nul než předchozí řádek. Toto jsou vše schodovité matice:</p>
+
+<div class="blatex proc">\[A_1=\left(\begin{array}{ccc}1&amp;0&amp;0\\0&amp;1&amp;\pi\\0&amp;0&amp;1\end{array}\right), \quad A_2=\left(\begin{array}{ccc}1&amp;0&amp;0\\0&amp;1&amp;0\\0&amp;0&amp;1\\0&amp;0&amp;0\\0&amp;0&amp;0\end{array}\right),\quad A_3=\left(\begin{array}{ccccc}1&amp; 1&amp; 1&amp; 1&amp; 8\\0&amp; 0&amp; 0&amp; 5&amp; 1\\0 &amp;0&amp; 0&amp; 0 &amp;5\end{array}\right)\]</div>
+
+<p><strong>Matice transponovaná</strong> k matici A je matice <span class="inline-math">A<sup>T</sup></span>, u které platí <span class="inline-math">a<sub>ij</sub>  =  a<sup>T</sup><sub>ji</sub></span>, tj. prvek který byl v <span class="inline-math">i</span>-tém řádku a <span class="inline-math">j</span>-tém sloupci bude v transponované matici na <span class="inline-math">j</span>-tém řádku a <span class="inline-math">i</span>-tém sloupci. Zkrátka zaměníte řádky matice za sloupce.</p>
+
+<div class="blatex proc">\[\begin{eqnarray}\left(\begin{array}{ccc}0&amp;1&amp;5\\8&amp;5&amp;23\\47&amp;154&amp;2\end{array}\right)^T &amp;=&amp; \left(\begin{array}{ccc}0&amp;8&amp;47\\1&amp;5&amp;154\\5&amp;23&amp;2\end{array}\right)\\\left(\begin{array}{ccc}3&amp;4&amp;5\\6&amp;7&amp;8\end{array}\right)^T&amp;=&amp;\left(\begin{array}{cc}3&amp;6\\4&amp;7\\5&amp;8\end{array}\right)\end{eqnarray}\]</div>
+
+<p><strong>Symetrická matice</strong> je čtvercová matice <span class="inline-math">A</span>, která se splňuje rovnost <span class="inline-math">A  =  A<sup>T</sup></span>. Prvky symetrické podle diagonály jsou stejné. Můžeme tak napsat, že <span class="inline-math">a<sub>ij</sub> = a<sub>ji</sub></span>.</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}9&amp;3&amp;4\\3&amp;7&amp;0\\4&amp;0&amp;2\end{array}\right)\]</div>
+
+<p><strong>Antisymetrická matice</strong> je skoro totéž jako symetrická matice, akorát prvky na druhé straně mají opačné znaménko: <span class="inline-math">A  =  −A<sup>T</sup></span>. Kvůli tomu musí být prvky na hlavní diagonále nulové, protože <span class="inline-math">a = −a = 0</span>. </p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}0&amp;-3&amp;-4\\3&amp;0&amp;5\\4&amp;-5&amp;0\end{array}\right)\]</div>
+
+<p><strong>Diagonální matice</strong> je matice, která má nuly všude kromě hlavní diagonály. Přesněji řečeno všude jinde musí být nuly, co je na hlavní diagonále není specifikováno.</p>
+
+<div class="blatex proc">\[A_1=\left(\begin{array}{ccc}9&amp;0&amp;0\\0&amp;7&amp;0\\0&amp;0&amp;2\end{array}\right), \quad A_2=\left(\begin{array}{ccc}3&amp;0&amp;0\\0&amp;0&amp;0\\0&amp;0&amp;0\end{array}\right)\]</div>
+
+<h2 id="zakladni-operace-s-maticemi"><span>Základní operace s maticemi</span>&nbsp;<a class="headerlink" href="#zakladni-operace-s-maticemi">#</a></h2>
+
+<p>Matice můžeme sčítat, můžeme je násobit nějakým číslem a můžeme násobit i matice navzájem.</p>
+
+<p><strong>Sčítání matic</strong> je poměrně intuitivní. Pokud jsou matice stejného typu (= stejný počet sloupců a řádků), výsledná matice bude mít na stejných pozicích součty čísel na odpovídajících pozicích v předchozích maticích. Neboli pokud sčítáme matice <span class="inline-math">A + B = C</span>, pak platí <span class="inline-math">a<sub>ij</sub> + b<sub>ij</sub>  =  c<sub>ij</sub></span>.</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}0&amp;1&amp;5\\8&amp;5&amp;23\\47&amp;154&amp;2\end{array}\right) + \left(\begin{array}{ccc}5&amp;4&amp;3\\10&amp;20&amp;30\\7&amp;-54&amp;-12\end{array}\right) = \left(\begin{array}{ccc}5&amp;5&amp;8\\18&amp;25&amp;53\\54&amp;100&amp;-10\end{array}\right)\]</div>
+
+<p>Sčítání matic je zřejmě komutativní a asociativní. <span class="inline-math">A + B  =  B + A</span> a <span class="inline-math">A + (B + C)  =  (A + B) + C</span>.</p>
+
+<p><strong>Násobení matic číslem</strong> je také intuitivní. Vezmete číslo a vynásobíte s ním každý prvek matice, nic víc. <span class="inline-math">k ·  A  =  k ·  a<sub>ij</sub></span>.</p>
+
+<div class="blatex proc">\[5\cdot \left(\begin{array}{ccc}0&amp;1&amp;5\\8&amp;5&amp;23\\47&amp;154&amp;2\end{array}\right) = \left(\begin{array}{ccc}0&amp;5&amp;25\\40&amp;25&amp;115\\235&amp;770&amp;10\end{array}\right)\]</div>
+
+<h2 id="nasobeni-matic"><span>Násobení matic</span>&nbsp;<a class="headerlink" href="#nasobeni-matic">#</a></h2>
+
+<p>Násobení matic už je trochu horší záležitost, protože už není intuitivní, jak by člověk čekal. Nestačí pouze vynásobit odpovídající členy. V prvé řadě musí matice splňovat kritérium, že počet sloupců první matice musí být stejný jako počet řádků druhé matice. Zbytek může být libovolný. Nyní už můžeme nadefinovat součin (<span class="inline-math">n</span> je počet sloupců první matice):</p>
+
+<div class="blatex proc">\[(A\cdot B)_{ij}=\sum_{p=1}^{n}a_{ip}\cdot b_{pj}\]</div>
+
+<p>To toho víte, co? Teď to zkusím objasnit i těm méně bystrým :-). Vezmete první řádek první matice a první sloupec druhé matice. Nyní vynásobíte první prvek s prvním prvkem a sečtete s násobkem druhého prvku s druhým prvkem a sečtete atd. Tím získáte v nové matici C prvek <span class="inline-math">c<sub>11</sub></span>. Úplně nejlepší bude příklad. Vynásobíme tyto dvě matice:</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right), B=\left(\begin{array}{cc}5&amp;6\\7&amp;8\end{array}\right)\]</div>
+
+<p>Nyní vybereme první řádek první matice a první sloupeček druhé matice:</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{cc}\fbox{1}&amp;\fbox{2}\\3&amp;4\end{array}\right), B=\left(\begin{array}{cc}\fbox{5}&amp;6\\\fbox{7}&amp;8\end{array}\right)\]</div>
+
+<p>Pro přehlednost zápisu si nově vzniklou matici označíme C. Pokud chceme získat první prvek této matice, musíme vypočítat toto: <span class="inline-math">c<sub>11</sub>  =  a<sub>11</sub> ·  b<sub>11</sub> + a<sub>12</sub> ·  b<sub>21</sub></span>. Upozorňuji, že na prvním místě indexu je řádek, poté sloupec. Po dosazení dostáváme: <span class="inline-math">1 ·  5 + 2 ·  7  =  19</span>. První prvek má hodnotu 19:</p>
+
+<div class="blatex proc">\[C=\left(\begin{array}{cc}19&amp;?\\?&amp;?\end{array}\right)\]</div>
+
+<p>Další prvek, <span class="inline-math">c<sub>12</sub></span>, získáme stejným způsobem, pouze vezmeme první řádek a druhý sloupec. Tímto zdlouhavým výpočtem vždy získáme ten prvek, který mají společný. První řádek a první sloupec mají společný prvek na souřadnicích <span class="inline-math">c<sub>11</sub></span>, první řádek a druhý sloupec zase <span class="inline-math">c<sub>12</sub></span>. Hezky to ukazuje následující obrázek:</p>
+
+<p><div class="obrazek"><img src="content/images/soucin-matic.png" alt="Součin matic" width="519" height="117"><span class="popisek">Součin matic</span></div></p>
+
+<p>Teď už jen rychle donásobím zbytek matice:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}c_{12} &amp;=&amp; a_{11} \cdot b_{12} + a_{12} \cdot b_{22} = 1 \cdot 6 + 2 \cdot 8 = 22.\\c_{21} &amp;=&amp; a_{21} \cdot b_{11} + a_{22} \cdot b_{21} = 3 \cdot 5 + 4 \cdot 7 = 43.\\c_{22} &amp;=&amp; a_{21} \cdot b_{12} + a_{22} \cdot b_{22} = 3 \cdot 6 + 4 \cdot 8 = 50.\end{eqnarray}\]</div>
+
+<p>Tato čísla už jen zapíšeme do matice:</p>
+
+<div class="blatex proc">\[C=\left(\begin{array}{cc}19&amp;22\\43&amp;50\end{array}\right)\]</div>
+
+<p>Správnost výsledku si můžeme ověřit třeba v Excelu nebo v OpenOffisáckém Calcu, které obsahují funkce pro práci s maticemi.</p>
+
+<p>Teď pár všeobecných informací o násobení matic. Předně násobení matic není komutativní. Obecně neplatí, že by <span class="inline-math">A  ·  B  =  B  ·  A</span>, ačkoliv samozřejmě takový případ může nastat. Ale násobení matic je asociativní. Se sčítáním je dokonce distributivní: <span class="inline-math">A (B + C)  =  AB + AC</span>. Pokud násobíme dvě matice <span class="inline-math">a<sub>ix</sub> ·  b<sub>xn</sub></span>, pak výsledná matice bude typu \(i \times n\) (bude mít tolik řádků, kolik má první matice řádků a tolik sloupců, kolik má druhá matice sloupců).</p>
+
+<h2 id="priklady"><span>Příklady</span>&nbsp;<a class="headerlink" href="#priklady">#</a></h2>
+
+<p>Máme dány tyto tři matice:</p>
+
+<div class="blatex proc">\[A=\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right),\,B=\left(\begin{array}{ccc}4&amp;2&amp;8\\10&amp;12&amp;4\\4&amp;5&amp;9\end{array}\right),\,C=\left(\begin{array}{cc}8&amp;9\\-5&amp;4\\10&amp;-1\end{array}\right).\]</div>
+
+<p>Proveďte součin matic <span class="inline-math">A ·  B</span>.</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right)\cdot \left(\begin{array}{ccc}4&amp;2&amp;8\\10&amp;12&amp;4\\4&amp;5&amp;9\end{array}\right) = \left(\begin{array}{ccc}36&amp;41&amp;43\\90&amp;98&amp;106\\144&amp;155&amp;169\end{array}\right)\]</div>
+
+<p>Proveďte součin matic <span class="inline-math">B ·  A</span>.</p>
+
+<p>Pozor na to, že násobení matic není komutativní, takže určitě nemůžeme s jistotou říci, že výsledek bude stejný jako v předchozím případě. Musíme to zkrátka celé znova vypočítat:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}4&amp;2&amp;8\\10&amp;12&amp;4\\4&amp;5&amp;9\end{array}\right) \cdot \left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right) = \left(\begin{array}{ccc}68&amp;82&amp;96\\86&amp;112&amp;138\\87&amp;105&amp;123\end{array}\right)\]</div>
+
+<p>Proveďte součin matic <span class="inline-math">A ·  C</span> a <span class="inline-math">C ·  B</span>.</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right)\cdot\left(\begin{array}{cc}8&amp;9\\-5&amp;4\\10&amp;-1\end{array}\right) = \left(\begin{array}{cc}28&amp;14\\67&amp;50\\106&amp;86\end{array}\right)\]</div>
+
+<p>Druhý příklad nemůžeme vypočítat, protože počet sloupců první matice je jiný než počet řádků druhé matice.</p>
+
+<h2 id="zakladni-maticove-upravy"><span>Základní maticové úpravy</span>&nbsp;<a class="headerlink" href="#zakladni-maticove-upravy">#</a></h2>
+
+<p>Abychom mohli s maticemi efektivně pracovat, musíme si nadefinovat nějaké elementární maticové úpravy. Předně můžeme vynásobit řádek/sloupec matice nějakým číslem různým od nuly. Vynásobení se projeví stejně jako <span class="inline-math">k</span>-násobek matice, ale pouze v onom řádku/sloupci.</p>
+
+<p>Druhá úprava je přičtení <span class="inline-math">k</span>-násobku <span class="inline-math">j</span>-tého řádku k <span class="inline-math">i</span>-tému řádku. Totéž pro sloupce. Zní to trochu strašidelně, ale je to ve skutečnosti jednoduché. Předvedeme si to pro <span class="inline-math">k  =  1</span>. Budeme mít tuto matici:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right)\]</div>
+
+<p>Nyní k prvnímu řádku přičteme druhý řádek. Vezmeme tedy druhý řádek a čísla na ekvivalentních pozicích přičteme k číslům z prvního řádku. S čísly ze druhého řádku se nic nestane, změní se jen první řádek:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}5&amp;7&amp;9\\4&amp;5&amp;6\\7&amp;8&amp;9\end{array}\right)\]</div>
+
+<p>Nyní můžeme v úpravách pokračovat. Teď zkusíme přičíst dvojnásobek prvního řádku ke třetímu řádku. Vytáhneme z této nově vzniklé matice první řádek, vynásobíme ho dvěma, čímž získáme řádek <span class="inline-math">(10,  14,  18)</span> a tato čísla přičteme ke třetímu řádek. Opět &#8211; první řádek se nezmění, změní se pouze třetí řádek:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}5&amp;7&amp;9\\4&amp;5&amp;6\\17&amp;22&amp;27\end{array}\right)\]</div>
+
+<p>Teď přičteme zase ke třetímu řádku součet prvního a druhého řádku. V podstatě to není nic nového, protože když ke třetímu řádku přičteme nejprve druhý řádek a poté první řádek, musíme dojít ke stejnému výsledku. Součet prvního a druhého řádku bude roven: <span class="inline-math">(5,  7,  9) + (4,  5,  6)  =  (9,  12,  15)</span>. Součet tohoto řádku s třetím řádkem pak bude roven: <span class="inline-math">(9,  12,  15) + (17,  22,  27)  =  (26,  34,  42)</span>. </p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}5&amp;7&amp;9\\4&amp;5&amp;6\\26&amp;34&amp;42\end{array}\right)\]</div>
+
+<p>A ještě jedna sloupcová úprava (ty se obvykle nepoužívají tak často, protože nejsou tolik přehledné). Přičteme první sloupec ke druhému sloupci:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}5&amp;12&amp;9\\4&amp;9&amp;6\\26&amp;60&amp;42\end{array}\right)\]</div>
+
+<p>A úplně naposledy vynásobíme druhý řádek dvojkou:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}5&amp;12&amp;9\\8&amp;18&amp;12\\26&amp;60&amp;42\end{array}\right)\]</div>
+
+<h2 id="linearni-zavislost"><span>Lineární závislost</span>&nbsp;<a class="headerlink" href="#linearni-zavislost">#</a></h2>
+
+<p>Teď si ještě vysvětlíme, co jsou to závislé řádky/sloupce. Řádek je lineárně závislý, pokud tento řádek lze vyjádřit jako lineární kombinací ostatních řádků matice. Zkrátka pokud budete schopni různě sčítat řádky tak, aby vám nakonec vyšel hledaný řádek, je tento řádek lineárně závislý. Příklad:</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\6&amp;9&amp;12\end{array}\right)\]</div>
+
+<p>Vezmete-li dvojnásobek prvního řádku a druhý řádek, dostanete řádek třetí. Pokud od třetího řádku odečtete tuto kombinaci, dostanete nulový řádek (řádek obsahující samé nuly). Tento řádek je závislý. Úpravy tedy provedeme takto (vynásobíme první řádek dvojkou, přičteme ke druhému řádku, odečteme od třetího):</p>
+
+<div class="blatex proc">\[\left(\begin{array}{ccc}1&amp;2&amp;3\\4&amp;5&amp;6\\6&amp;9&amp;12\end{array}\right)\sim \begin{pmatrix}2&amp;4&amp;6\\4&amp;5&amp;6\\6&amp;9&amp;12\end{pmatrix}\sim\begin{pmatrix}2&amp;4&amp;6\\6&amp;9&amp;12\\6&amp;9&amp;12\end{pmatrix}\sim\begin{pmatrix}2&amp;4&amp;6\\6&amp;9&amp;12\\0&amp;0&amp;0\end{pmatrix}\]</div>
+
+<p>Pokud máme matici <span class="inline-math">A</span>, která má <span class="inline-math">n</span> řádků a <span class="inline-math">A<sub>i</sub></span> označuje <span class="inline-math">i</span>-tý řádek, pak řekneme, že matice neobsahuje lineárně závislý řádek, pokud:</p>
+
+<div class="blatex proc">\[\alpha_1A_1+\alpha_2A_2+\ldots+\alpha_nA_n={\bf 0}\]</div>
+
+<p>právě když <span class="inline-math">α<sub>1</sub>,  α<sub>2</sub>,  …,  α<sub>n</sub> = 0</span>. Nula na pravé straně rovnice představuje nulový řádek. Tj. pokud jediné řešení této rovnice je nulové řešení. Pokud nalezneme jiné řešení, pak matice obsahuje lineárně závislý řádek. Obdobně pro sloupec. Pro předchozí matici by platilo:</p>
+
+<div class="blatex proc">\[\begin{eqnarray}&amp;&amp;2\begin{pmatrix}1&amp;2&amp;3\end{pmatrix}+1\begin{pmatrix}4&amp;5&amp;6\end{pmatrix}-1\begin{pmatrix}6&amp;9&amp;12\end{pmatrix}=\\&amp;&amp;=\begin{pmatrix}6&amp;9&amp;12\end{pmatrix}-\begin{pmatrix}6&amp;9&amp;12\end{pmatrix}=\begin{pmatrix}0&amp;0&amp;0\end{pmatrix}\end{eqnarray}\]</div>
+
+<p>Tedy hodnoty alfa jsou <span class="inline-math">α<sub>1</sub> = 2,  α<sub>2</sub> = 1,  α<sub>3</sub> = −1</span>.</p>
+
+<p>Počet nezávislých řádků nebo sloupců udává <a href="hodnost-matice.html">hodnost matice</a>.</p>
+
+<h2 id="regularni-a-singularni-matice"><span>Regulární a singulární matice</span>&nbsp;<a class="headerlink" href="#regularni-a-singularni-matice">#</a></h2>
+
+<p>Matice se nazývá regulární, jestliže má maximální hodnost (tj. pokud se v ní nevyskytuje žádný lineárně závislý řádek) a jestliže je to matice čtvercová. Čtvercová matice se nazývá singulární, jestliže není regulární (tj. jestliže matice obsahuje alespoň jeden lineárně závislý řádek). Tyhle dva pojmy jsou docela důležité, respektive často na nich stojí nějaké definice. Spousta věcí je definována, jen pokud je matice regulární.</p>
+
+<h2 id="souvisejici-clanky"><span>Související články</span>&nbsp;<a class="headerlink" href="#souvisejici-clanky">#</a></h2>
+
+<ul>
+<li><a href="hodnost-matice.html">Hodnost matice</a> </li>
+<li><a href="inverzni-matice.html">Inverzní matice</a> </li>
+<li><a href="determinanty.html">Determinant matice</a></li>
+</ul></div>
+<div class="clear"></div>
+
+        </div><!--end: entry-->
+
+      </div><!--end: content-->
+
+<!--konec tela clanku - zacatek sidebaru-->
+
+﻿<div id="sidebar"> 
+
+ <!--inzerce 300x250-->
+          <div id="reklama">REKLAMA</div>
+          <div class="ad300x250"><!-- /117050822/300x250-4 -->
+<div id='div-gpt-ad-1491809363047-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1491809363047-0'); });
+</script>
+</div></div><!--konec inzerce 300x250-->
+
+            <div class="clear"></div>
+          
+          <div class="menu-sidebar">           
+           
+           
+           
+          
+    <a name="ex1" id="ex1"></a>
+    <ul id="example1">
+        </li>
+<li><span><a href="kategorie-zakladni-skola.html">Základní škola</a></span><ul class="navclanky"><li ><a href="scitani-odecitani.html">Sčítání a odečítání</a></li>
+<li ><a href="nasobeni.html">Násobení</a></li>
+<li ><a href="deleni.html">Dělení čísel</a></li>
+<li ><a href="mnohocleny.html">Mnohočleny</a></li>
+<li ><a href="deleni-mnohoclenu.html">Dělení mnohočlenů</a></li>
+<li ><a href="lomene-vyrazy.html">Lomené výrazy</a></li>
+<li ><a href="zlomky.html">Zlomky</a></li>
+<li ><a href="vytykani.html">Vytýkání</a></li>
+<li ><a href="procenta.html">Procenta</a></li>
+<li ><a href="zaokrouhlovani.html">Zaokrouhlování</a></li>
+<li ><a href="trojclenka.html">Trojčlenka</a></li>
+<li ><a href="spolecna-prace.html">Společná práce</a></li>
+</ul></li>
+<li><span><a href="kategorie-funkce.html">Funkce</a></span><ul class="navclanky"><li ><a href="co-je-to-funkce.html">Funkce</a></li>
+<li ><a href="funkce.html">Vlastnosti funkce</a></li>
+<li ><a href="definicni-obor.html">Definiční obor</a></li>
+<li ><a href="inverzni-funkce.html">Inverzní funkce</a></li>
+<li ><a href="suda-licha.html">Sudá a lichá funkce</a></li>
+<li ><a href="linearni-funkce.html">Lineární funkce</a></li>
+<li ><a href="mocniny.html">Mocniny</a></li>
+<li ><a href="odmocniny.html">Odmocniny</a></li>
+<li ><a href="exponencialni-funkce.html">Exponenciální funkce</a></li>
+<li ><a href="logaritmy.html">Logaritmy</a></li>
+<li ><a href="kvadraticka-funkce.html">Kvadratické funkce</a></li>
+<li ><a href="goniometrie.html">Goniometrické funkce</a></li>
+</ul></li>
+<li><span><a href="kategorie-rovnice-nerovnice.html">Rovnice a nerovnice</a></span><ul class="navclanky"><li ><a href="rovnice.html">Co je to rovnice</a></li>
+<li ><a href="upravy-rovnic.html">Ekvivalentní úpravy</a></li>
+<li ><a href="linearni-rovnice.html">Lineární rovnice</a></li>
+<li ><a href="kvadraticke-rovnice.html">Kvadratická rovnice</a></li>
+<li ><a href="binomicke-rovnice.html">Binomické rovnice</a></li>
+<li ><a href="linearni-nerovnice.html">Lineární nerovnice</a></li>
+<li ><a href="kvadraticke-nerovnice.html">Kvadratická nerovnice</a></li>
+<li ><a href="exponencialni-rovnice.html">Exponenciální rovnice</a></li>
+<li ><a href="goniometricke-rovnice.html">Goniometrické rovnice</a></li>
+<li ><a href="soustavy-rovnic.html">Soustavy rovnic</a></li>
+</ul></li>
+<li><span><a href="kategorie-cisla.html">Čísla</a></span><ul class="navclanky"><li ><a href="prirozena-cisla.html">Přirozená čísla</a></li>
+<li ><a href="cela-cisla.html">Celá čísla</a></li>
+<li ><a href="racionalni-cisla.html">Racionální čísla</a></li>
+<li ><a href="iracionalni-cisla.html">Iracionální čísla</a></li>
+<li ><a href="realna-cisla.html">Reálná čísla</a></li>
+<li ><a href="komplexni-cisla.html">Komplexní čísla</a></li>
+<li ><a href="prvocisla.html">Prvočísla</a></li>
+<li ><a href="prevod.html">Převody soustav</a></li>
+<li ><a href="mnoziny.html">Množiny</a></li>
+<li ><a href="uroky.html">Úroky</a></li>
+<li ><a href="interval.html">Interval</a></li>
+<li ><a href="nekonecno.html">Nekonečno</a></li>
+<li ><a href="doplneni-ctverec.html">Doplnění na čtverec</a></li>
+</ul></li>
+<li><span><a href="kategorie-geometrie.html">Geometrie</a></span><ul class="navclanky"><li ><a href="geometrie.html">Geometrické pojmy</a></li>
+<li ><a href="primka.html">Přímka</a></li>
+<li ><a href="uhel.html">Úhel</a></li>
+<li ><a href="ctverec.html">Čtverec</a></li>
+<li ><a href="obdelnik.html">Obdélník</a></li>
+<li ><a href="objemy-obsahy.html">Objemy a obsahy</a></li>
+<li ><a href="trojuhelnik.html">Trojúhelníky</a></li>
+<li ><a href="kruznice.html">Kružnice</a></li>
+<li ><a href="kuzelosecky.html">Kuželosečky</a></li>
+<li ><a href="euklidovy-vety.html">Euklidovy věty</a></li>
+<li ><a href="vzorce-geometrie.html">Vzorce</a></li>
+</ul></li>
+<li><span><a href="kategorie-kombinatorika.html">Kombinatorika</a></span><ul class="navclanky"><li ><a href="kombinatorika.html">Kombinatorika</a></li>
+<li ><a href="pravdepodobnost.html">Pravděpodobnost</a></li>
+<li ><a href="tri-dvere.html">Paradoxy</a></li>
+<li ><a href="bezpecnost-hesla.html">Bezpečnost hesla</a></li>
+<li ><a href="zaklady-statistiky.html">Základy statistiky</a></li>
+<li ><a href="binomicka-veta.html">Binomická věta</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyticka-geometrie.html">Analytická geometrie</a></span><ul class="navclanky"><li ><a href="vektory.html">Vektory</a></li>
+<li ><a href="parametricka-rovnice-primky.html">Rovnice přímky</a></li>
+<li ><a href="vzajemna-poloha-primek.html">Vzájemná poloha přímek</a></li>
+<li ><a href="rovnice-roviny.html">Rovnice roviny</a></li>
+<li ><a href="vzdalenost-bod-primka.html">Metrické vlastnosti</a></li>
+</ul></li>
+<li><span><a href="kategorie-statistika.html">Statistika</a></span><ul class="navclanky"><li ><a href="zakladni-pojmy-statistiky.html">Základní pojmy statistiky</a></li>
+<li ><a href="rozlozeni-cetnosti.html">Rozložení četnosti</a></li>
+<li ><a href="prumer.html">Průměr, medián a modus</a></li>
+<li ><a href="rozptyl.html">Rozptyl</a></li>
+<li ><a href="smerodatna-odchylka.html">Směrodatná odchylka</a></li>
+<li ><a href="rozlozeni-pravdepodobnosti.html">Rozložení pravděpodobnosti</a></li>
+<li ><a href="rovnomerne-normalni-rozlozeni.html">Rovnoměrné a normální rozložení</a></li>
+</ul></li>
+<li><span><a href="kategorie-dukazy.html">Důkazy</a></span><ul class="navclanky"><li ><a href="dukazy.html">Co je to důkaz</a></li>
+<li ><a href="dukaz-sporem.html">Důkaz sporem</a></li>
+<li ><a href="matematicka-indukce.html">Matematická indukce</a></li>
+</ul></li>
+<li><span><a href="kategorie-ostatni.html">Ostatní</a></span><ul class="navclanky"><li ><a href="vyroky.html">Logika</a></li>
+<li ><a href="ukazky-testu.html">Ukázky testů</a></li>
+<li ><a href="hlavolamy.html">Hlavolamy</a></li>
+<li ><a href="absolutni-hodnota.html">Absolutní hodnota</a></li>
+<li ><a href="faktorial.html">Faktoriál</a></li>
+<li ><a href="pomery.html">Poměry</a></li>
+<li ><a href="vyjadreni-promenne.html">Vyjádření proměnné</a></li>
+<li ><a href="symboly.html">Matematické symboly</a></li>
+<li ><a href="nastroje.html">Matematické nástroje</a></li>
+<li ><a href="mapa.html">Měřítko mapy</a></li>
+<li ><a href="ciselne-rady.html">Číselné řady</a></li>
+</ul></li>
+<li><span><a href="kategorie-maturita.html">Maturita</a></span><ul class="navclanky"><li ><a href="maturita-2013-ilustracni.html">Maturita 2013 Ilustrační test</a></li>
+<li ><a href="maturita-2013-jaro.html">Maturita 2013 jaro</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyza.html">Analýza</a></span><ul class="navclanky"><li ><a href="posloupnosti.html">Posloupnosti</a></li>
+<li ><a href="limita-posloupnosti.html">Limita posloupnosti</a></li>
+<li ><a href="limita-funkce.html">Limita funkce</a></li>
+<li ><a href="spojitost-funkce.html">Spojitost funkce</a></li>
+<li ><a href="derivace.html">Derivace funkce</a></li>
+<li ><a href="derivace-priklady.html">Příklady na derivace</a></li>
+<li ><a href="derivace-pokrocile-priklady.html">Příklady na derivace #2</a></li>
+<li ><a href="derivace-vzorce.html">Vzorce pro derivace</a></li>
+<li ><a href="prubeh-funkce.html">Průběh funkce</a></li>
+<li ><a href="integral.html">Integrály</a></li>
+</ul></li>
+<li class="aktivni active"><span><a href="kategorie-linearni-algebra.html">Lineární algebra</a></span><ul class="navclanky"><li ><a href="telesa.html">Tělesa</a></li>
+<li ><a href="relace.html">Relace</a></li>
+<li  class='akt'><a href="matice.html">Matice</a></li>
+<li ><a href="hodnost-matice.html">Hodnost matice</a></li>
+<li ><a href="inverzni-matice.html">Inverzní matice</a></li>
+<li ><a href="determinanty.html">Determinanty</a></li>
+<li ><a href="systemy-linearnich-rovnic.html">Systémy lineárních rovnic</a></li>
+<li ><a href="vektorove-prostory.html">Vektorové prostory</a></li>
+</ul></li>
+<li><span><a href="kategorie-informatika.html">Informatika</a></span><ul class="navclanky"><li ><a href="formalni-jazyky.html">Formální jazyky</a></li>
+<li ><a href="konecny-automat.html">Konečné automaty</a></li>
+<li ><a href="nedosazitelne-stavy.html">Redukce KA</a></li>
+<li ><a href="uzavrenost-regularnich-jazyku.html">Uzavřenost regulárních jazyků</a></li>
+<li ><a href="regularni-vyrazy.html">Regulární výrazy</a></li>
+</ul></li>
+<li><span><a href="kategorie-kryptografie.html">Kryptografie a šifrování</a></span><ul class="navclanky"><li ><a href="kryptografie.html">Kryptografie</a></li>
+<li ><a href="caesarova-sifra.html">Caesarova šifra</a></li>
+<li ><a href="vigenerova-sifra.html">Vigenèrova šifra</a></li>
+</ul></li>       
+    </ul>
+           
+           
+          </div><!--end: menu-sidebar-->
+
+<div id="facebook-page">
+<div class="fb-like-box" data-href="https://www.facebook.com/matematika.cz" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+</div><!--end: facebook-page-->
+</div>
+<!--konec sidebaru - zacatek zapati-->
+      
+      <div class="clear"></div>
+
+     <div id="footer">
+        
+        <div class="left">
+              <a href="o-webu.html">O webu</a> | <a href="kontakt.html">Kontakt</a>
+          </div><!--end: left-->
+  
+           <div class="right">
+          <a href="http://www.novamedia.cz/">Vydavatelství Nová média, s. r. o.</a> &copy; 2006&mdash;2014
+          </div><!--end: right-->
+
+     <div class="clear"></div>
+
+    </div><!--end: footer-->
+
+    <div class="clear"></div>
+
+</div><!--end: wrapper-->
+
+</div><!--end: inhalt-->
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJaxdda6.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+<!-- Mirrored from matematika.cz/matice by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:17:35 GMT -->
+</html>

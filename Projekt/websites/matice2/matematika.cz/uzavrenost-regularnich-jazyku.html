@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from matematika.cz/uzavrenost-regularnich-jazyku by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:21:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Vydavatelství Nová média, s. r. o." />
+    <meta property="og:image" content="images/web/logo-min.png">
+    <meta name="keywords" content="matematika, polopatě, příklady, výpočet, počítání, řešení, funkce, návody, postupy, vysvětlení" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="sources/styles/styly79ee.css?version=5" media="screen">
+        
+        
+        <link rel="home" href="index.html" title="Matematika polopatě">
+    <title>Uzavřenost regulárních jazyků — Matematika.cz</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> -->
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link href='../fonts.googleapis.com/cssb5c9.css?family=Open+Sans:400italic,400,800,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='../fonts.googleapis.com/css43e8.css?family=Roboto+Condensed:700|Roboto:400,400italic,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<!-- Tento tag vložte do části <head> vašeho dokumentu-->
+<link href="../plus.google.com/106738392831664880938/index.html" rel="publisher" />
+
+<script type="text/javascript" src="test/js/jquery.min.js"></script>
+<script type="text/javascript" src="test/js/jquery.hoveraccordion.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Setup HoverAccordion for Example 1
+        $('#example1').hoverAccordion({activateItem: false});
+        $('#article-chapters, #article-chapters-button').toggle();
+    });
+</script>
+<script type="text/javascript">
+function toggle_chapters () {
+    $('#article-chapters,').toggle();
+    el = $('#article-chapters-button');
+    content = el.html();
+    if (content.indexOf("Skrýt") != -1) {
+        el.html(content.replace("Skrýt", "Zobrazit"));
+    } else {
+        el.html(content.replace("Zobrazit", "Skrýt"));
+    }
+    return false;
+}
+</script>
+<script type="text/javascript">
+
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-1559810-1']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+
+</script>
+
+<!-- Customized Google Analytics tracking code by H1.cz -->
+<script type="text/javascript" src="sources/javascript/analytics.js"></script>
+<script type="text/javascript"><!--
+_ga.create('UA-1559810-1', '.matematika.cz');
+_gaq.push(['_trackPageview']);
+//--></script>
+
+<style type="text/css">
+    #lista-media {
+    background: #f0f0f0;
+    height: 45px;
+    width: 1050px;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -4px;
+    }
+.lista-media-polozka-aktivni {
+    background: #fff;
+    color: #000;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-aktivni:hover {
+    background: #fff;
+    color: #000; 
+    }
+.lista-media-polozka-neaktivni {
+    background: url("../konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi1.png") repeat-x;
+    color: #b1b1b1;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+.lista-media-polozka-neaktivni:hover {
+    background: url("../www.konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi2.html") repeat-x;
+    color: #000;    
+    }
+#lista-media-polozka-last {
+    height: 30px;
+    width: 202px;
+    margin-right: 0px;
+    padding-top: 16px;
+    text-align: center;
+    float: left;
+    }
+</style>
+<script async='async' src='../www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/300x250-4', [300, 250], 'div-gpt-ad-1491809363047-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/117050822/1050-200-header', [1050, 200], 'div-gpt-ad-1486737245871-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body id="strana-uzavrenost-regularnich-jazyku" style="margin-left: auto; margin-right: auto; position: relative">
+
+<div id="fb-root"></div> 
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "../connect.facebook.net/cs_CZ/all.js#xfbml=1"; 
+fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+<div style="text-align: center;">
+    <a href="http://www.strojirenstvi.cz/"><img src="content/sda-kon/limec-strojirenstvi-horni.png" height="200"></a>
+</div>
+
+<div style="margin-left: 50%; position: fixed;">
+    <a href="http://www.strojirenstvi.cz/">
+        <span style="display: block; width: 427px; height: 1225px; position: absolute; right: 525px; top: -203px; background-image: url('content/sda-kon/limec-strojirenstvi-levy.png'); background-position: right; background-repeat: no-repeat" id="levy"></span>
+    </a>
+
+    <a href="http://www.strojirenstvi.cz/" style="display: block">
+        <span style="position: absolute; top: 0; left: 523px; display: block; width: 427px; top: -203px; height: 1225px; background-image: url('content/sda-kon/limec-strojirenstvi-pravy.png'); background-position: left; background-repeat: no-repeat" id="pravy"></span>
+    </a>
+</div>
+
+
+
+<div id="inhalt">
+
+
+
+<div id="lista-media">
+<a href="http://www.strojirenstvi.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">STROJIRENSTVI.CZ</span></a>
+<a href="http://www.konstrukter.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">KONSTRUKTER.CZ</span></a>
+<a href="http://www.3d-tisk.cz/"><span id="lista-media-polozka" class="lista-media-polozka-neaktivni">3D-TISK.CZ</span></a>
+<a href="index.html"><span id="lista-media-polozka" class="lista-media-polozka-aktivni">MATEMATIKA.CZ</span></a>
+<a href="http://www.novamedia.cz/"><span id="lista-media-polozka-last" class="lista-media-polozka-neaktivni">NOVAMEDIA.CZ</span></a>
+</div><!--end:lista-media-->
+
+
+<div id="wrapper">
+
+        <div id="header">
+            
+        <!--<div id="reklama-970">REKLAMA</div>
+            <div id="ad-970x90">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+            style="display:inline-block;width:970px;height:90px"
+            data-ad-client="ca-pub-4489054294017543"
+            data-ad-slot="7778942712"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>      
+        </div>-->
+
+        <!-- /117050822/300x250-4 -->
+
+        
+        <div id="header-left">
+
+            <div class="clear"></div>
+
+            <div id="header-left-logo">
+             <a href="index.html">
+                <span class="logo">
+                <img src="content/newfiles/matematika-cz-logo.png" alt="Matematika.cz - matematika polopatě" />
+                </span><!--end: logo-->
+            </a>
+            </div><!--end: header-left-logo-->
+
+        </div><!--end: header-left-->
+
+        <div id="header-right">
+
+            <div id="hledani">
+                <div id="search">
+                    <form method="get" id="searchform" action="https://matematika.cz/sources/open/search.php">
+                    <input class="searchinput" type="text" value="Hledáte něco?" onfocus="if(this.value == this.defaultValue) this.value='';" onblur="if(this.value == '') this.value=this.defaultValue;" name="q" id="s" />
+        </div><!--end: search-->
+                <div id="lupa"></div>
+        </form> 
+        
+            <a href="http://forum.matematika.cz/"><span id="skola-forum" style="display: block"></span></a>
+            <a href="matematika-pro-vysoke-skoly.html"><span id="skola-vs" style="display: block"></span></a>
+            <a href="matematika-pro-stredni-skoly.html"><span id="skola-ss" style="display: block"></span></a>   
+            <a href="matematika-pro-zakladni-skoly.html"><span id="skola-zs" style="display: block"></span></a>
+        
+        </div><!--end: hledani-->
+
+        </div><!--end: header-right-->
+
+        </div><!--end: header-->
+
+        
+<!--konec zahlavi - zacatek tela clanku-->
+
+     <!--start: content-->                                    
+
+    <div id="content"><div class="obsah"><div id="result"></div><h1><span>Uzavřenost regulárních jazyků</span></h1><div class="web"><div class='article-chapters'><strong><a href='#' onclick='return toggle_chapters();' id='article-chapters-button'>Zobrazit kapitoly článku</a></strong> <ol id='article-chapters'><li>Uzavřenost regulárních jazyků</li><li><a href='https://matematika.cz/sjednoceni-regularnich-jazyku'>Sjednocení</a></li><li><a href='https://matematika.cz/prunik-regularnich-jazyku'>Průnik</a></li><li><a href='https://matematika.cz/rozdil-regularnich-jazyku'>Rozdíl</a></li><li><a href='https://matematika.cz/doplnek-regularniho-jazyka'>Doplněk</a></li><li><a href='https://matematika.cz/zretezeni-regularniho-jazyka'>Zřetězení</a></li><li><a href='https://matematika.cz/uzaver-regularniho-jazyka'>Uzávěr</a></li></ol></div><p class="perex">Jazyk <span class="inline-math"><i>L</i></span> je regulární, právě tehdy, pokud existuje automat <span class="inline-math"><i>A</i></span>, který tento jazyk přijímá, tj. <span class="inline-math"><i>L</i>(<i>A</i>)  =  <i>L</i></span>. Dokážeme si, že regulární jazyky jsou uzavřené na operacích sjednocení, průnik, konkatenace a uzávěr.</p>
+
+<h2 id="uzavrenost-na-mnozine-vzhledem-k-operaci"><span>Uzavřenost na množině vzhledem k operaci</span>&nbsp;<a class="headerlink" href="#uzavrenost-na-mnozine-vzhledem-k-operaci">#</a></h2>
+
+<p>Řekneme, že množina <span class="inline-math"><i>M</i></span> je uzavřena na operaci \(\otimes\) pokud platí, že </p>
+
+<div class="blatex proc">\[\forall x, y \in M: x \otimes y \in M\]</div>
+
+<p>Příkladem je například operace sčítání na množině <a href="prirozena-cisla.html">přirozených čísel</a>. Součet jakýchkoliv dvou přirozených čísel je opět přirozené číslo. Naopak množina přirozených čísel není uzvařená na odečítání, protože například <span class="inline-math">7 − 15  =  −8</span> a číslo <span class="inline-math">−8</span> není přirozené. </p>
+
+<p>Dokážeme si, vůči kterým operacím je uzavřena množina regulární jazyků. Všechny důkazy budou konstrukční, tj. sestrojíme automat, který přijímá výsledný jazyk. </p><div class='nextpreviouslinkscara' style='clear:both;'>&nbsp;</div><div class='nextpreviouslinks'><div class='nextlink'><a rel='next' href='https://matematika.cz/sjednoceni-regularnich-jazyku'>Další: Sjednocení »</a></div></div></div>
+<div class="clear"></div>
+
+        </div><!--end: entry-->
+
+      </div><!--end: content-->
+
+<!--konec tela clanku - zacatek sidebaru-->
+
+﻿<div id="sidebar"> 
+
+ <!--inzerce 300x250-->
+          <div id="reklama">REKLAMA</div>
+          <div class="ad300x250"><!-- /117050822/300x250-4 -->
+<div id='div-gpt-ad-1491809363047-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1491809363047-0'); });
+</script>
+</div></div><!--konec inzerce 300x250-->
+
+            <div class="clear"></div>
+          
+          <div class="menu-sidebar">           
+           
+           
+           
+          
+    <a name="ex1" id="ex1"></a>
+    <ul id="example1">
+        </li>
+<li><span><a href="kategorie-zakladni-skola.html">Základní škola</a></span><ul class="navclanky"><li ><a href="scitani-odecitani.html">Sčítání a odečítání</a></li>
+<li ><a href="nasobeni.html">Násobení</a></li>
+<li ><a href="deleni.html">Dělení čísel</a></li>
+<li ><a href="mnohocleny.html">Mnohočleny</a></li>
+<li ><a href="deleni-mnohoclenu.html">Dělení mnohočlenů</a></li>
+<li ><a href="lomene-vyrazy.html">Lomené výrazy</a></li>
+<li ><a href="zlomky.html">Zlomky</a></li>
+<li ><a href="vytykani.html">Vytýkání</a></li>
+<li ><a href="procenta.html">Procenta</a></li>
+<li ><a href="zaokrouhlovani.html">Zaokrouhlování</a></li>
+<li ><a href="trojclenka.html">Trojčlenka</a></li>
+<li ><a href="spolecna-prace.html">Společná práce</a></li>
+</ul></li>
+<li><span><a href="kategorie-funkce.html">Funkce</a></span><ul class="navclanky"><li ><a href="co-je-to-funkce.html">Funkce</a></li>
+<li ><a href="funkce.html">Vlastnosti funkce</a></li>
+<li ><a href="definicni-obor.html">Definiční obor</a></li>
+<li ><a href="inverzni-funkce.html">Inverzní funkce</a></li>
+<li ><a href="suda-licha.html">Sudá a lichá funkce</a></li>
+<li ><a href="linearni-funkce.html">Lineární funkce</a></li>
+<li ><a href="mocniny.html">Mocniny</a></li>
+<li ><a href="odmocniny.html">Odmocniny</a></li>
+<li ><a href="exponencialni-funkce.html">Exponenciální funkce</a></li>
+<li ><a href="logaritmy.html">Logaritmy</a></li>
+<li ><a href="kvadraticka-funkce.html">Kvadratické funkce</a></li>
+<li ><a href="goniometrie.html">Goniometrické funkce</a></li>
+</ul></li>
+<li><span><a href="kategorie-rovnice-nerovnice.html">Rovnice a nerovnice</a></span><ul class="navclanky"><li ><a href="rovnice.html">Co je to rovnice</a></li>
+<li ><a href="upravy-rovnic.html">Ekvivalentní úpravy</a></li>
+<li ><a href="linearni-rovnice.html">Lineární rovnice</a></li>
+<li ><a href="kvadraticke-rovnice.html">Kvadratická rovnice</a></li>
+<li ><a href="binomicke-rovnice.html">Binomické rovnice</a></li>
+<li ><a href="linearni-nerovnice.html">Lineární nerovnice</a></li>
+<li ><a href="kvadraticke-nerovnice.html">Kvadratická nerovnice</a></li>
+<li ><a href="exponencialni-rovnice.html">Exponenciální rovnice</a></li>
+<li ><a href="goniometricke-rovnice.html">Goniometrické rovnice</a></li>
+<li ><a href="soustavy-rovnic.html">Soustavy rovnic</a></li>
+</ul></li>
+<li><span><a href="kategorie-cisla.html">Čísla</a></span><ul class="navclanky"><li ><a href="prirozena-cisla.html">Přirozená čísla</a></li>
+<li ><a href="cela-cisla.html">Celá čísla</a></li>
+<li ><a href="racionalni-cisla.html">Racionální čísla</a></li>
+<li ><a href="iracionalni-cisla.html">Iracionální čísla</a></li>
+<li ><a href="realna-cisla.html">Reálná čísla</a></li>
+<li ><a href="komplexni-cisla.html">Komplexní čísla</a></li>
+<li ><a href="prvocisla.html">Prvočísla</a></li>
+<li ><a href="prevod.html">Převody soustav</a></li>
+<li ><a href="mnoziny.html">Množiny</a></li>
+<li ><a href="uroky.html">Úroky</a></li>
+<li ><a href="interval.html">Interval</a></li>
+<li ><a href="nekonecno.html">Nekonečno</a></li>
+<li ><a href="doplneni-ctverec.html">Doplnění na čtverec</a></li>
+</ul></li>
+<li><span><a href="kategorie-geometrie.html">Geometrie</a></span><ul class="navclanky"><li ><a href="geometrie.html">Geometrické pojmy</a></li>
+<li ><a href="primka.html">Přímka</a></li>
+<li ><a href="uhel.html">Úhel</a></li>
+<li ><a href="ctverec.html">Čtverec</a></li>
+<li ><a href="obdelnik.html">Obdélník</a></li>
+<li ><a href="objemy-obsahy.html">Objemy a obsahy</a></li>
+<li ><a href="trojuhelnik.html">Trojúhelníky</a></li>
+<li ><a href="kruznice.html">Kružnice</a></li>
+<li ><a href="kuzelosecky.html">Kuželosečky</a></li>
+<li ><a href="euklidovy-vety.html">Euklidovy věty</a></li>
+<li ><a href="vzorce-geometrie.html">Vzorce</a></li>
+</ul></li>
+<li><span><a href="kategorie-kombinatorika.html">Kombinatorika</a></span><ul class="navclanky"><li ><a href="kombinatorika.html">Kombinatorika</a></li>
+<li ><a href="pravdepodobnost.html">Pravděpodobnost</a></li>
+<li ><a href="tri-dvere.html">Paradoxy</a></li>
+<li ><a href="bezpecnost-hesla.html">Bezpečnost hesla</a></li>
+<li ><a href="zaklady-statistiky.html">Základy statistiky</a></li>
+<li ><a href="binomicka-veta.html">Binomická věta</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyticka-geometrie.html">Analytická geometrie</a></span><ul class="navclanky"><li ><a href="vektory.html">Vektory</a></li>
+<li ><a href="parametricka-rovnice-primky.html">Rovnice přímky</a></li>
+<li ><a href="vzajemna-poloha-primek.html">Vzájemná poloha přímek</a></li>
+<li ><a href="rovnice-roviny.html">Rovnice roviny</a></li>
+<li ><a href="vzdalenost-bod-primka.html">Metrické vlastnosti</a></li>
+</ul></li>
+<li><span><a href="kategorie-statistika.html">Statistika</a></span><ul class="navclanky"><li ><a href="zakladni-pojmy-statistiky.html">Základní pojmy statistiky</a></li>
+<li ><a href="rozlozeni-cetnosti.html">Rozložení četnosti</a></li>
+<li ><a href="prumer.html">Průměr, medián a modus</a></li>
+<li ><a href="rozptyl.html">Rozptyl</a></li>
+<li ><a href="smerodatna-odchylka.html">Směrodatná odchylka</a></li>
+<li ><a href="rozlozeni-pravdepodobnosti.html">Rozložení pravděpodobnosti</a></li>
+<li ><a href="rovnomerne-normalni-rozlozeni.html">Rovnoměrné a normální rozložení</a></li>
+</ul></li>
+<li><span><a href="kategorie-dukazy.html">Důkazy</a></span><ul class="navclanky"><li ><a href="dukazy.html">Co je to důkaz</a></li>
+<li ><a href="dukaz-sporem.html">Důkaz sporem</a></li>
+<li ><a href="matematicka-indukce.html">Matematická indukce</a></li>
+</ul></li>
+<li><span><a href="kategorie-ostatni.html">Ostatní</a></span><ul class="navclanky"><li ><a href="vyroky.html">Logika</a></li>
+<li ><a href="ukazky-testu.html">Ukázky testů</a></li>
+<li ><a href="hlavolamy.html">Hlavolamy</a></li>
+<li ><a href="absolutni-hodnota.html">Absolutní hodnota</a></li>
+<li ><a href="faktorial.html">Faktoriál</a></li>
+<li ><a href="pomery.html">Poměry</a></li>
+<li ><a href="vyjadreni-promenne.html">Vyjádření proměnné</a></li>
+<li ><a href="symboly.html">Matematické symboly</a></li>
+<li ><a href="nastroje.html">Matematické nástroje</a></li>
+<li ><a href="mapa.html">Měřítko mapy</a></li>
+<li ><a href="ciselne-rady.html">Číselné řady</a></li>
+</ul></li>
+<li><span><a href="kategorie-maturita.html">Maturita</a></span><ul class="navclanky"><li ><a href="maturita-2013-ilustracni.html">Maturita 2013 Ilustrační test</a></li>
+<li ><a href="maturita-2013-jaro.html">Maturita 2013 jaro</a></li>
+</ul></li>
+<li><span><a href="kategorie-analyza.html">Analýza</a></span><ul class="navclanky"><li ><a href="posloupnosti.html">Posloupnosti</a></li>
+<li ><a href="limita-posloupnosti.html">Limita posloupnosti</a></li>
+<li ><a href="limita-funkce.html">Limita funkce</a></li>
+<li ><a href="spojitost-funkce.html">Spojitost funkce</a></li>
+<li ><a href="derivace.html">Derivace funkce</a></li>
+<li ><a href="derivace-priklady.html">Příklady na derivace</a></li>
+<li ><a href="derivace-pokrocile-priklady.html">Příklady na derivace #2</a></li>
+<li ><a href="derivace-vzorce.html">Vzorce pro derivace</a></li>
+<li ><a href="prubeh-funkce.html">Průběh funkce</a></li>
+<li ><a href="integral.html">Integrály</a></li>
+</ul></li>
+<li><span><a href="kategorie-linearni-algebra.html">Lineární algebra</a></span><ul class="navclanky"><li ><a href="telesa.html">Tělesa</a></li>
+<li ><a href="relace.html">Relace</a></li>
+<li ><a href="matice.html">Matice</a></li>
+<li ><a href="hodnost-matice.html">Hodnost matice</a></li>
+<li ><a href="inverzni-matice.html">Inverzní matice</a></li>
+<li ><a href="determinanty.html">Determinanty</a></li>
+<li ><a href="systemy-linearnich-rovnic.html">Systémy lineárních rovnic</a></li>
+<li ><a href="vektorove-prostory.html">Vektorové prostory</a></li>
+</ul></li>
+<li class="aktivni active"><span><a href="kategorie-informatika.html">Informatika</a></span><ul class="navclanky"><li ><a href="formalni-jazyky.html">Formální jazyky</a></li>
+<li ><a href="konecny-automat.html">Konečné automaty</a></li>
+<li ><a href="nedosazitelne-stavy.html">Redukce KA</a></li>
+<li  class='akt'><a href="uzavrenost-regularnich-jazyku.html">Uzavřenost regulárních jazyků</a></li>
+<li ><a href="regularni-vyrazy.html">Regulární výrazy</a></li>
+</ul></li>
+<li><span><a href="kategorie-kryptografie.html">Kryptografie a šifrování</a></span><ul class="navclanky"><li ><a href="kryptografie.html">Kryptografie</a></li>
+<li ><a href="caesarova-sifra.html">Caesarova šifra</a></li>
+<li ><a href="vigenerova-sifra.html">Vigenèrova šifra</a></li>
+</ul></li>       
+    </ul>
+           
+           
+          </div><!--end: menu-sidebar-->
+
+<div id="facebook-page">
+<div class="fb-like-box" data-href="https://www.facebook.com/matematika.cz" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+</div><!--end: facebook-page-->
+</div>
+<!--konec sidebaru - zacatek zapati-->
+      
+      <div class="clear"></div>
+
+     <div id="footer">
+        
+        <div class="left">
+              <a href="o-webu.html">O webu</a> | <a href="kontakt.html">Kontakt</a>
+          </div><!--end: left-->
+  
+           <div class="right">
+          <a href="http://www.novamedia.cz/">Vydavatelství Nová média, s. r. o.</a> &copy; 2006&mdash;2014
+          </div><!--end: right-->
+
+     <div class="clear"></div>
+
+    </div><!--end: footer-->
+
+    <div class="clear"></div>
+
+</div><!--end: wrapper-->
+
+</div><!--end: inhalt-->
+<script type="text/javascript" src="../cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJaxdda6.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+</body>
+<!-- Mirrored from matematika.cz/uzavrenost-regularnich-jazyku by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Dec 2019 11:21:40 GMT -->
+</html>

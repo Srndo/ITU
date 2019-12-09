@@ -1,0 +1,2100 @@
+/*******************
+*   RESET          *
+********************/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a {text-decoration:none;}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    }
+
+fieldset,img { 
+    border:1px;
+    }
+
+ol,ul {
+    list-style:none;
+    }   
+
+caption,th {
+    text-align:left;
+    }
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+    }
+
+q:before,q:after {
+    content:'';
+    }
+
+abbr,acronym { border:0;
+    }
+
+.clear{ 
+    clear:both;
+    }
+
+.right { 
+    float:right; 
+    color: #000;    
+    }
+
+.left { 
+    float:left; 
+    }
+
+.left-img { 
+    float:left; 
+    margin-bottom: 10px;
+    border: 1px solid #DDDDDD;
+    }
+
+/*******************
+*   GLOBAL         *
+********************/
+body {
+    background: #f0f0f0;
+    /*background: white;*/
+    font: 12px/17px Open Sans, sans-serif;
+    color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*    REKLAMY     */
+
+#rbackground {
+    position:relative;
+}
+
+#rbackground-link {
+    display: block;
+    border: 3px solid blue;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:10;
+    opacity: 0;
+    filter: alpha(opacity=1);
+    text-decoration:none;
+}
+/*      PRUMYSL-LISTA       */
+
+#lista-media {
+    /*background: #eee;*/
+    background: transparent;
+    height: 45px;
+    /*width: 860px;*/
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /*padding-left: 50px;
+    margin-left: 50px;*/
+    margin-top: 182px;
+    }
+
+#lista-media span, #wrapper, #cta  {
+    position: relative;
+    z-index: 16;
+}
+
+
+.lista-media-polozka-aktivni {
+    background: #fff;
+    color: #000;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+
+.lista-media-polozka-aktivni:hover {
+    background: #fff;
+    color: #000;    
+    }
+
+.lista-media-polozka-neaktivni {
+    background: url("../../../konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi1.png") repeat-x;
+    color: #b1b1b1;
+    height: 30px;
+    width: 202px;
+    margin-right: 10px;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+    }
+
+.lista-media-polozka-neaktivni:hover {
+    background: url("../../../www.konstrukter.cz/wp-content/uploads/2014/07/polozka-pozadi2.html") repeat-x;
+    color: #000;    
+    }
+
+
+#lista-media-polozka-last {
+    height: 30px;
+    width: 202px;
+    margin-right: 0px;
+    padding-top: 16px;
+    text-align: center;
+    float: left;
+    }
+
+#inhalt {
+    /*background: #f0f0f0;*/
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    font-family: Open Sans, sans-serif;
+}
+
+#wrapper {
+    background: #FFFFFF;
+    width: 970px;
+    margin: 0px auto;
+    padding: 0px 40px 0px 40px;
+  border-top: 20px #FFFFFF solid;
+    border-left: 0px #FFFFFF solid;
+    border-right: 0px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    }
+
+.thumb img {
+    float: right;
+    padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 5px;
+        border: 1px solid #E0E0E0;
+    }
+
+.midthumb img {
+    float: left;
+    padding: 0px 0px 0px 0px;
+        margin: 0px 10px 20px 0px;
+        border: 5px solid #E0E0E0;
+    }
+
+.widethumbnail {
+    margin: 0px 0px 10px 0px;
+        border: 1px solid #E0E0E0;
+    }
+
+/*******************
+*   HYPERLINKS     *
+********************/
+
+a, a:visited {
+    color: #222222;
+    text-decoration: none;
+    }
+
+a.podtrzeny {
+    color: #cc0000;
+    border-bottom: 1px solid;
+    }
+
+a.nepodtrzeny {
+    color: #000000;
+    border-bottom: 0px solid;
+    }
+
+a.nepodtrzeny:hover {
+    color: #696969;
+    text-decoration: none;
+    }
+
+a.podtrzeny-vypis {
+    color: #222222;
+    text-decoration: underline;
+    float: right;
+    width: 430px;
+    margin: 0 0 0 0;
+    }
+
+a.cist-dal {
+    color: #222222;
+    text-decoration: underline;
+    margin: 0 0 0 0;
+    }
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+    }
+
+a:active {
+    }
+
+a img {
+    border: none;
+    }
+    
+a:focus, a:hover, a:active {
+    outline: none ;
+    }
+    
+/*******************
+*   TOP            *
+********************/
+
+
+/*******************
+*   SEARCH FORM    *
+********************/
+
+form {
+    margin: 0px;
+    padding: 0px;
+    }
+
+#search {
+    margin: 13px 0 0 0;
+    height: 33px;
+    padding: 0px;
+    float: right;
+    }
+
+#searchform {
+    }
+
+.searchinput {
+    background: #AAAAAA;
+    width: 150px;
+    height: 31px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0px solid #DDDDDD;
+    }
+
+#lupa {
+    width: 33px;
+    height: 33px;
+    padding: 0px;
+    margin: 13px 0 0 0;
+    float: right;
+    background: #AAAAAA;
+    background-image: url('https://matematika.cz/content/newfiles/lupa.png');
+    }
+
+.searchsubmit {
+    background: #AAAAAA;
+    background-image: url('https://matematika.cz/content/newfiles/lupa.png');
+    width: 33px;
+    height: 33px;
+    margin: 0px;
+    padding: 0;
+    border: 1px solid #000;
+    color: #FFFFFF;
+    font-weight: bold;  
+    }
+
+#skola-zs {
+    width: 46px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/zs-off.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-zs:hover {
+    width: 46px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/zs-on.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-ss {
+    width: 46px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/ss-off.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-ss:hover {
+    width: 46px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/ss-on.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-vs {
+    width: 51px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/vs-off.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-vs:hover {
+    width: 51px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/vs-on.png');
+    margin: 10px 20px 0 0;
+    }
+
+#skola-forum {
+    width: 135px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/forum-off.png');
+    margin: 10px 30px 0 0;
+    }
+
+#skola-forum:hover {
+    width: 135px;
+    height: 36px;
+    float: right;
+    display: block;
+    background-image: url('https://matematika.cz/content/newfiles/forum-on.png');
+    margin: 10px 30px 0 0;
+    }
+
+
+/*******************
+*   HEADER         *
+********************/
+
+#header {
+    background: #FFFFFF;
+    /*height: 220px;*/
+    width: 970px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+    }
+
+#ad-970x90 {
+    background: #AAAAAA;
+    height: 90px;
+    width: 970px;
+    float: left;
+    margin: 0px 0 30px 0;
+    border: 1px solid #DDDDDD;
+    }
+
+#header-left {
+    background: #FFFFFF;
+    height: 90px;
+    width: 350px;
+    float: left;
+    }
+
+#header-left-menu {
+    background: #FFFFFF;
+    height: 35px;
+    width: 340px;
+    padding-top: 15px;
+    padding-left: 0px;
+    float: left;
+    color: #dddddd;
+    }
+
+a.left-menu {
+    color: #696969;
+    }
+
+a.left-menu:hover {
+    color: #000000;
+    }
+
+#header-left-logo {
+    background: #FFFFFF;
+    height: 52px;
+    width: 332px;
+    float: left;
+    }
+
+#header-right {
+    background: #FFFFFF;
+    height: 90px;
+    width: 620px;
+    float: right;
+    }
+
+#hledani {
+    width: 620px;
+    height: 50px;
+    }
+
+.logo {
+    position: relative;
+    left: 0px;
+    float: left;
+    width: 332px;
+    height: 52px;
+    margin: 14px 0px 0px 0px;
+    padding: 0px;
+    }
+
+.ad468x60 {
+    position: relative;
+    float: right;
+    background: #FFFFFF;
+    width: 468px;
+    height: 60px;
+    margin: 35px 0px 0px 0px;
+    padding: 0px;
+  border-width: 1px;
+  border-color: #fff;
+    right: 40px;
+    }
+
+.ad468x60 img {
+    border: 1px;
+    }
+
+
+/*******************
+*   MENU           *
+********************/
+
+#menu {
+    position: relative;
+    background: url("https://matematika.cz/content/newfiles/images/menu-pozadi.png") no-repeat;
+    background-position: 0px 0px;
+    height: 150px;
+    width: 1150px;
+    right: 90px;
+    bottom: 50px;
+    font-family: Open Sans, sans-serif;
+    }
+
+#menu-text {
+    position: relative;
+    top: 50px;
+    }
+
+#menu-text a {
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+  font-weight: normal;
+    text-decoration: none;
+    border-left: 1px dotted #ffffff;
+    }
+
+#menu-text a:hover {
+    background: #000000;
+    color: #cc0000;
+    display: block;
+    text-decoration: none;
+    }
+
+.tucne {
+    font-weight: normal;    
+    }
+
+
+/*******************
+*   HOMEPAGE       *
+********************/
+#col1 {
+    background: #fff;
+    float: left;
+    width: 670px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    clear: both;
+    top: -60px;
+    position: relative;
+    }
+
+
+
+/*******************
+*   CONTENT        *
+********************/
+
+#boxy {
+    float: left;
+    width: 970px;
+    margin-left: 0px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Open Sans, sans-serif;
+    position: relative;
+    top: -10px;
+    }
+
+.vimg {
+    position: relative;
+    top: 110px;
+    left: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: normal;
+    }
+
+.vboxu {
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    }
+
+#box-1 {
+    float: left;
+    background: #FFFFFF;
+    width: 300px;
+    height: 250px;
+    margin-right: 34px;
+    position: relative;
+    padding-top: 17px;
+    }
+
+#box-1-img {
+    width: 300px;
+    height: 190px;
+    background: #000000 url("https://matematika.cz/content/newfiles/box-matematika-polopate.png") no-repeat;
+    }
+
+#box-1-img:hover {
+    width: 300px;
+    height: 190px;
+    background: #000000 url("https://matematika.cz/content/newfiles/box-matematika-polopate-on.png") no-repeat;
+    }
+
+#box-2-img {
+    width: 300px;
+    height: 190px;
+    background: #000000 url("https://matematika.cz/content/newfiles/box-forum.png") no-repeat;
+    }
+
+#box-2-img:hover {
+    width: 300px;
+    height: 190px;
+    background: #000000 url("https://matematika.cz/content/newfiles/box-forum-on.png") no-repeat;
+    }
+
+#box-text {
+    width: 300px;
+    height: 60px;
+    background: #000000;
+    }
+
+#box-2 {
+    float: left;
+    background: #FFFFFF;
+    width: 300px;
+    height: 250px;
+    margin-right: 34px;
+    padding-top: 17px;
+    position: relative;
+    }
+
+#box-3 {
+    float: left;
+    background: #FFFFFF;
+    width: 300px;
+    height: 260px;
+    margin-right: 0px;
+    position: relative;
+    }
+
+#box-3-text {
+    color: #696969;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 9px; 
+    float: right;
+    width: 300px;
+    height: 17px;
+    }
+
+#box-3-ad {
+    width: 300px;
+    height: 250px;
+    border: 0px solid #DDDDDD;
+    }
+
+#content {
+    float: left;
+    width: 630px;
+    margin-left: 0px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Open Sans, sans-serif;
+    border-right: 0px solid #DDDDDD;
+    top: 0px;
+    position: relative;
+    }
+
+#fullcontent {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    }
+    
+.browse {   
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 18px;
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    color: #333333;
+    line-height: 18px;
+    }
+
+.browse a {
+    color: #333333;
+    }
+
+#postmeta {
+    margin: 35px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    height: 35px;
+    }
+
+#postmeta-text {
+    margin: 9px 0px 0px 0px;
+    padding: 0px 50px 0px 0px;
+    float:right;
+    }
+
+.nazor a {
+    color: #cc0000; 
+    }
+
+.nazor a:hover {
+    color: #cc0000; 
+    text-decoration: underline;
+    }
+
+/*******************
+*   OBSAH          *
+********************/
+
+.obsah {
+    width: 630px;
+    float: left;
+    margin: 0px 0px 25px 0px;
+    color: #000;
+    line-height: 1.7em;
+  font-size: 16px;
+    }
+
+.obsah  p {
+    width: 590px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin-left: 0px;
+    float: left;
+    }
+    
+.obsah strong {
+    font-weight: bold;
+    }
+    
+.obsah h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 0px 7px 0px;
+  color: #CC0000;
+    }
+    
+.obsah h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px !important;
+    padding: 20px 0px 10px 0px !important;
+  clear: both;
+    }
+    
+.obsah h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 40px 15px 0px;
+    margin-left: 0px;
+    clear: both;
+    float: left;
+    }
+    
+.obsah h4 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 7px 0px;
+    }
+    
+.obsah h5 {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px 7px 0px;
+    }
+    
+.obsah h6 {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 0px 7px 0px;
+    }
+    
+.obsah a {
+    color: #CC0000;
+    text-decoration: underline;
+    }
+    
+.obsah a:hover {
+    text-decoration: underline;
+  color: #000000;
+    }
+    
+.obsah a img {
+    border: none;
+    }
+    
+.obsah ul {
+    padding-bottom: 10px;
+  width: 570px;  
+  margin-left: 19px;
+    list-style: square inside;
+    list-style-position: outside;
+    clear: both;
+    float: left;
+    }
+
+.obsah ol {
+    width: 570px;
+    margin-left: 0px;
+    float: left;
+    padding-bottom: 10px;
+    list-style: decimal inside;
+  font-weight: lighter;
+    }
+    
+.obsah li {
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: normal;
+    }
+
+.obsah li span {
+    /*padding-bottom: 10px;*/
+    color: #000;
+    font-weight: normal;
+    }
+    
+.obsah li a {
+    color: #333333;
+    }
+
+.obsah li ul {
+    margin: 0px;
+    padding: 0px;
+    }
+
+.page {
+    margin: 10px 0px 0px 0px;
+    }
+
+code {
+    color: #444444;
+    font: 10px/12px/17px georgia;
+    display: block;
+    }
+
+.dotaz {
+    background: #F0F0F0;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    color: #333333;
+    clear: both;
+    font-style: italic;
+    width: 570px;
+    }
+
+blockquote {
+    background: #F0F0F0;
+    margin: 0px 0px 0px 0px;
+    color: #333333;
+    clear: both;
+    }
+    
+blockquote p {
+    font-style: italic;
+    }
+    
+blockquote li {
+    padding: 2px 0px 2px 10px;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+    }
+    
+blockquote a {
+    color: #000000;
+    text-decoration: none;
+    }
+    
+blockquote a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+    }
+
+
+/*******************
+*   IMAGES         *
+********************/
+img.centered  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 0px;
+    }
+    
+img.alignnone {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    display: inline;
+    }
+
+img.alignright {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    display: inline;
+    }
+    
+img.alignleft {
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+    display: inline;
+    text-align: left;
+    }
+    
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    clear:both;
+    }
+    
+.alignright {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    clear: both;
+    }
+    
+.alignleft {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    clear: both;
+    }
+    
+.wp-caption {
+    float: left;
+    padding: 10px 0 10px 0px;
+    }
+    
+.wp-caption img {
+    margin: 0px 0px 5px 0px;
+    padding: 1px;
+    background: #DDDDDD;
+    }
+    
+p.wp-caption-text {
+    width: 300px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    float: left;
+    text-align: left;
+    color: #696969;
+    }
+
+
+/*******************
+*   SIDEBAR        *
+********************/
+
+#sidebar {
+    background: #ffffff;
+    float: right;
+    width: 300px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
+    border-left: 0px solid #E0E0E0;
+    top: 0px;
+    position: relative;
+    }
+
+#sidebar .box {
+    margin: 0px 0px 25px 0px;
+    padding: 0px;
+    color: #000000;
+    }
+
+#sidebar .box h5 {
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 8px 0px 8px 0px;
+    border-bottom: 1px solid #DDDDDD;
+    color: #000000;
+    }
+    
+#sidebar .box h5 a:hover {
+    color: #696969;
+    }
+
+#sidebar .box a {
+    color: #000000;
+    }
+
+#sidebar .box a:hover {
+    color: #696969;
+    }
+
+#sidebar .widget {
+    margin: 0px;
+    padding: 0px;
+    }
+
+#sidebar .leftwidget {
+    width: 300px;
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    border-right: 0px solid #DDDDDD;
+    }
+
+#sidebar .rightwidget {
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    }
+
+.widget ul, .leftwidget ul, .rightwidget ul {
+    margin: 0px;
+    padding: 0px;
+    color: #cc0000;
+    }
+
+.widget ul li, .leftwidget ul li, .rightwidget ul li{
+    list-style: none;
+    line-height: 1.3em;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 8px 0px 8px 0px;
+    border-bottom: 1px solid #DDDDDD;
+    color: #000000;
+    }
+
+#sidebar li ul {
+    color: #000000;
+    }
+
+#sidebar li li {
+    color: #000000;
+    }
+
+#sidebar h3 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #CC0000;
+    font-weight: bold;
+    border-bottom: 0px solid #CC0000;
+    width: 300px;
+    font-family: Roboto, sans-serif;
+    }
+
+#sidebar h3 a {
+    color: #CC0000;
+    }
+
+.ad300x250 {
+    background: #AAAAAA;
+    width: 300px;
+    height: 250px;
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    float: left;
+    border: 1px solid #DDDDDD;
+    }
+
+.ad300x250 img {
+    border: none;
+    }
+
+
+/*******************
+*   COMMENTS       *
+********************/
+
+.comments-box {
+    padding: 25px 40px 0px 0px;
+    border-top: 1px solid #DDDDDD;
+    }
+
+.comments-box img {
+    }
+
+.comments-box h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px;
+    margin-left: 0px;
+    }
+
+.comments-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 15px 0px;
+    margin-left: 0px;
+    }
+
+.komentare {
+    }
+
+#respond {
+    background: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    }
+
+#respond p {
+    color: #777777;
+    margin: 0px 0px 0px 0px;
+    }
+
+.cancel-comment-reply {
+    padding: 5px 0px 0px 0px;
+    font-size: 10px;
+    }
+
+.cancel-comment-reply a {
+    color: #000000;
+    }
+
+.cancel-comment-reply a:hover {
+    color: #CC0000;
+    } 
+
+.text {
+    border: 1px solid #DDDDDD;
+    padding: 2px;
+    color: #777777;
+    width: 200px;
+    }
+
+/************************
+*   COMMENT FRAMEWORK   *
+*************************/
+
+ol.commentlist a:link {
+    text-decoration: none;
+    }
+
+ol.commentlist li div.vcard cite.fn a.url:hover {
+    text-decoration: none;
+    }
+
+ol.commentlist {
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    }
+
+ol.commentlist li {
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    list-style-type: none;
+    border-left: 0px solid #DDDDDD;
+    }
+
+ol.commentlist li.alt {
+    }
+
+ol.commentlist li.bypostauthor p {
+    }
+
+ol.commentlist li.byuser {
+    }
+
+ol.commentlist li.comment-author-admin {
+    }
+
+ol.commentlist li.comment {
+    }
+
+ol.commentlist li div.comment-author {
+    }
+
+ol.commentlist li div.vcard {
+    }
+
+ol.commentlist li div.vcard cite.fn {
+    font-style: normal;
+    font-weight: bold;
+    }
+
+ol.commentlist li div.vcard cite.fn a.url {
+    color: #222222;
+    }
+
+ol.commentlist li div.vcard img.avatar {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    }
+
+ol.commentlist li div.vcard img.avatar-32 {
+    padding: 2px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    }
+
+ol.commentlist li div.vcard img.photo {
+    padding: 2px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    }
+ol.commentlist li div.vcard span.says {
+    color: #888;
+    }
+
+ol.commentlist li div.commentmetadata {
+    }
+
+ol.commentlist li div.comment-meta {
+    margin: 3px 0px 0px 0px;
+    font-size: .9em;
+    }
+
+ol.commentlist li div.comment-meta a {
+    color: #AAAAAA;
+    text-decoration:none;
+    }
+
+ol.commentlist li p {
+    margin: 15px 0px 0px 0px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    }
+
+ol.commentlist li ul {
+    }
+
+ol.commentlist li div.reply {
+    margin: 10px 0px 0px 0px;
+    line-height: 18px;
+    }
+
+ol.commentlist li div.reply a {
+    background: #F8F8F8;
+    width: 45px;
+    height: 18px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid #DDD;
+    font-size: 14px;
+    color: #666 !important;
+    }
+
+ol.commentlist li div.reply a:hover {
+    background: #999;
+    border: 1px solid #888;
+    color: #fff !important;
+    text-decoration: none;
+    }
+
+ol.commentlist li ul.children {
+    }
+
+ol.commentlist li ul.children li {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0 20px 20px;
+    background: #FFFFFF;
+    border-left: 0px dotted #CCCCCC;
+    }
+
+ol.commentlist li ul.children li li.alt {
+    background: #FFFFFF;
+    }
+
+ol.commentlist li ul.children li.bypostauthor {
+    }
+
+ol.commentlist li ul.children li.byuser {
+    }
+
+ol.commentlist li ul.children li.comment {
+    }
+
+ol.commentlist li ul.children li.comment-author-admin {
+    }
+
+ol.commentlist li ul.children li.depth-2 {
+    }
+
+ol.commentlist li ul.children li.depth-3 {
+    }
+
+ol.commentlist li ul.children li.depth-4 {
+    }
+
+ol.commentlist li ul.children li.depth-5 {
+    }
+
+ol.commentlist li ul.children li.odd {
+    }
+
+ol.commentlist li.even {
+    }
+
+ol.commentlist li.odd {
+    }
+
+ol.commentlist li.parent {
+    }
+
+ol.commentlist li.pingback {
+    }
+
+ol.commentlist li.thread-alt {
+    }
+
+ol.commentlist li.thread-even {
+    }
+
+ol.commentlist li.thread-odd {
+    }
+
+.comment-body {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    }
+
+/*******************
+*   COMMENT FORM   *
+********************/
+
+#commentform {
+    }
+
+#commentform input {
+    width: 285px;
+    margin: 7px 3px 0px 0px;
+    padding: 0px;
+    border: 1px solid #DDDDDD;
+    }
+
+#commentform .author {
+    padding: 3px 3px 3px 5px;
+    background: #FFFFFF;
+    color: #666;
+    }
+
+#commentform .email {
+    padding: 3px 3px 3px 5px;
+    background: #FFFFFF;
+    color: #666;
+    }
+
+#commentform .url {
+    padding: 3px 3px 3px 5px;
+    background: #FFFFFF;
+    color: #666;
+    }
+
+#commentform textarea {
+    width: 290px;
+    height: 100px;
+    margin: 7px 0px 0px 0px;
+    padding: 2px;
+    font: Open Sans, sans-serif;
+    border: 1px solid #DDDDDD;
+    }
+
+#commentform .submit {
+    background: #F8F8F8;
+    width: 155px;
+    margin: 7px 0px 0px 0px;
+    padding: 4px;
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    }
+
+#commentform .submit:hover {
+    background: #999;
+    border: 1px solid #666;
+    text-decoration: underline;
+    color: #FFFFFF;
+    }
+
+
+/*******************
+*   NAVIGATION     *
+********************/
+
+.navigation {
+    margin: 15px 0px 5px 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    }
+
+
+/******************
+*   FOOTER        *
+*******************/ 
+
+#footer {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 20px 0px;
+    color: #333333;
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    }
+
+#footer a {
+    }
+
+#footer a:hover {
+    border-bottom: none;
+    }
+    
+#footer ul {
+    display: inline;
+    padding: 0px 0px 0px 23px;
+    background: #FFFFFF url("https://matematika.cz/content/newfiles/favicon.png") no-repeat 0 0;
+    }
+
+#footer li ul {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#footer ul li {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 11px 0px 0px;
+    float: left;
+    list-style: none;
+    }
+
+#footer li li {
+    }
+
+.wp {
+    padding: 0px 0px 0px 20px;
+    background: #FFFFFF url("https://matematika.cz/content/newfiles/images/wp.gif") no-repeat 0 0;
+    }
+
+
+
+a.on {
+    color: #ffffff;
+    }
+
+a.off {
+    color: #000000;
+    }
+
+a.off:hover {
+    color: #ffffff;
+    }
+
+#podobne-prispevky {
+    float: left;
+    width: 630px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #000;
+        
+    font-size: 16px;
+    line-height: 1.7em;
+    border-right: 1px solid #DDDDDD;
+    }
+
+.podobne-prispevky {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    padding: 0px 0px 15px 0px;
+    margin-left: 0px;
+    }
+
+#sdileni {
+    width: 250px;
+    float: left;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.sdileni {
+    width: 80px;
+    float: left;
+    }
+
+#partner {
+    width: 300px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    float: left;
+    }
+
+#abeceda {
+    width: 600px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    }
+
+#pismeno-leve {
+    width: 36px;
+    height: 26px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    float: left;
+    background: #DDDDDD;
+    text-align: center;
+    }
+
+#pismeno-leve:hover {
+    
+    }
+
+#pismeno-stred:hover {
+    
+    }
+
+#pismeno-prave:hover {
+    
+    }
+
+#pismeno-stred {
+    width: 36px;
+    height: 26px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    float: left;
+    background: #DDDDDD;
+    text-align: center;
+    }
+
+#pismeno-prave {
+    width: 36px;
+    height: 26px;
+    margin-right: 0px;
+    margin-bottom: 11px;
+    padding-top: 10px;
+    float: left;
+    background: #DDDDDD;
+    text-align: center;
+    }
+
+
+#encyklopedie-vypis {
+    width: 600px;   
+    margin-top: 20px;
+    float: left;
+    }
+
+#dodavatele-vypis {
+    width: 600px;   
+    margin-top: 0px;
+    float: left;
+    }
+
+h3.encyklopedie-nadpis {
+    line-height: 1.4em;
+    padding: 0px 0px 30px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #cc0000;
+    width: 350px;
+    }
+
+h4.encyklopedie-nadpis {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: bold;
+    float: left;
+    color: #cc0000;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 590px;
+    padding-right: 40px;
+    border-bottom: 1px solid #DDDDDD;
+    }
+
+#podobne-prispevky-v-encyklopedii {
+    margin-top: 10px;
+    float: left;
+    }
+
+.entry-encyklopedie ul {
+    padding-bottom: 10px;
+    list-style: square inside;
+    list-style-color: #CC0000;
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    }
+
+.entry-encyklopedie li {
+    padding-bottom: 10px;
+    color: #000;
+    }
+    
+.entry-encyklopedie li a {
+    color: #333333;
+    }
+
+.entry-encyklopedie li ul {
+    margin: 0px;
+    padding: 0px;
+    }
+
+.entry-encyklopedie a {
+    color: #000000;
+    text-decoration: underline;
+    }
+    
+.entry-encyklopedie a:hover {
+    text-decoration: underline;
+    color: #CC0000;
+    }
+
+.podobne-prispevky-v-encyklopedii-nadpis {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #696969;
+    font-weight: bold;
+    border-bottom: 0px solid #CC0000;
+    font-family: Roboto, sans-serif;
+    clear: both;
+    float: left;
+    }
+
+.fb-like {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.nejctenejsi-seznam {
+    list-style-type: decimal;
+    }
+
+a.heslo-encyklopedie {
+    display: block;
+    padding-top: 0px;
+    width: 36px;
+    height: 26px;
+
+    }
+
+a.heslo-encyklopedie:hover {
+    color: #CC0000;
+    padding-top: 0px;
+    
+    }
+
+
+
+.title {
+    text-align: left;
+    margin-top: 5px;
+}
+
+
+#carousel-siroky {
+    width: 970px;
+    height: 102px;
+    padding: 0px;
+    bottom: 60px;
+    margin-bottom: 40px;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+#kontextova-reklama {
+    width: 278px;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 0 10px;
+    clear: both;
+}
+
+#kr-pozice-1 {
+    border-bottom: 1px solid #CCCCCC;
+    width: 278px;
+    clear: both;
+    min-height: 80px;
+        height:auto !important;
+    height: 80px; 
+}
+
+#kr-img {
+    margin: 10px 15px 10px 0;
+    width: 80px;
+    height: 60px;
+    float: left;
+}
+
+#kr-text {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    margin-top: 15px;
+    width: 180px;
+    height: 60px;
+    float: left;
+
+}
+
+#kr-pozice-2 {
+    border-bottom: 0px solid #CCCCCC;
+    width: 278px;
+    clear: both;
+    min-height: 80px;
+        height:auto !important;
+    height: 80px; 
+}
+
+#reklama {
+    color: #696969;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 9px; 
+    float: left;
+    width: 300px;
+    }
+  
+#reklama-970 {
+    color: #696969;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 9px; 
+    float: left;
+    width: 970px;
+    }  
+  
+.obrazek
+{
+    text-align: center;
+    margin: 15px 0;
+    _float:none !Important;
+}
+
+.obrazek img, .obrazek object
+{
+    padding:3px;
+    /*border: 1px dotted #999;*/
+    /*background-color: #ffc;*/
+}
+
+.obrazek .popisek
+{
+    font-size:0.9em;
+    font-style: italic;
+    display: block;
+}
+
+.priklad
+{
+    margin: 25px;
+    padding: 10px;
+    background: #ddf;
+    border: 1px solid #ccf;
+}
+
+.priklad p
+{
+    margin-right:0;
+}
+
+.cislovani
+{
+    font-weight: bold;
+    color: #99f;
+}
+
+.zobraz
+{
+    text-align:center;
+}
+
+.blatex
+{
+    text-align:center;
+    margin: 10px 0;
+    clear: both;
+}
+
+.inline-math {
+    /*font-style: italic;*/
+    /*font-family: "Stix";*/
+    font-family: 'STIXGeneral';
+    font-size: 120%;
+}
+
+.infobox {
+    background: #eee;
+    padding: 5px;
+    margin-top: 35px;
+}
+
+.infobox ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+}
+
+#facebook-homepage {
+    width: 970px;
+    height: 200px;
+    border: 0px solid #DDDDDD;
+    clear: both;
+}
+
+#facebook-page {
+    margin-top: 40px;
+    width: 300px;
+    clear: both;
+}
+
+
+
+
+        #example1 {
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            list-style-type: none;
+            line-height: 35px;
+            font-face: Open Sans, sans-serif;
+            font-size: 14px;
+        font-weight: normal;
+        }
+
+        #example1 .closed {
+            background-image: url("https://matematika.cz/content/newfiles/img/ha-down.gif");
+        }
+
+        #example1 .closed, #example1 .opened {
+            padding-right: 10px;
+            background-position: 98% 50%;
+            background-repeat: no-repeat;
+        }
+
+        #example1 .header {
+            background-color: #AAAAAA;
+        }
+
+        #example1 .opened {
+            background-image: url("https://matematika.cz/content/newfiles/img/ha-up.gif");
+        }
+
+        #example1 a {
+            display: block;
+            text-decoration: none;
+        }
+
+        #example1 a.hover {
+            border-top: 1px solid #5F5F5F;
+            border-bottom: 1px solid #7B7B7B;
+            background-color: #7B7B7B;
+            color: #FFFFFF;
+        }
+
+        #example1 ul {
+
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #example1 li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            background-color: #848484;
+            color: #FFFFFF;
+            line-height: 35px;
+        }
+
+        #example1 li a {
+            padding: 2px 10px 2px 10px;
+            border-top: 1px solid #9A9A9A;
+            border-left: 0px solid #9A9A9A;
+            border-right: 0px solid #696969;
+            border-bottom: 0px solid #ffffff;
+            background-color: #DDDDDD;
+            color: #000000;
+        }
+
+    #example1 li li a {
+            padding: 2px 10px 2px 10px;
+            border-top: 1px solid #9A9A9A;
+            border-left: 0px solid #9A9A9A;
+            border-right: 0px solid #696969;
+            border-bottom: 0px solid #ffffff;
+            background-color: #DDDDDD;
+            color: #000000;
+        }
+
+    #example1 li a:hover {
+            padding: 2px 10px 2px 10px;
+            border-top: 1px solid #9A9A9A;
+            border-left: 0px solid #9A9A9A;
+            border-right: 0px solid #696969;
+            border-bottom: 0px solid #757575;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+    #example1 li.active a:hover {
+            padding: 2px 10px 2px 10px;
+            border-top: 1px solid #9A9A9A;
+            border-left: 0px solid #9A9A9A;
+            border-right: 0px solid #696969;
+            border-bottom: 0px solid #757575;
+            background-color: #DDDDDD;
+            color: #000000;
+        }
+
+    #example1 li.active a, #example1 li li.active a {
+        border-top: 1px solid #5F5F5F;
+        border-bottom: 1px solid #7B7B7B;
+        border-left: 0px solid #757575;
+        border-right: 0px solid #9A9A9A;
+        background-color: #404040;
+        color: #FFFFFF;
+    }
+
+    #example1 li.active li a, #example1 li li a {
+        padding: 2px 4px 2px 8px;
+        border-top: 1px solid #696969;
+        border-left: 0px solid #696969;
+        border-right: 0px solid #8A8A8A;
+        border-bottom: 1px solid #7B7B7B;
+        background-color: #757575;
+        color: #FFFFFF;
+    }
+
+    #example1 li.active ul li {
+        display: block!Important;
+    }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+sub {
+    font-size: 0.83em;
+    vertical-align: sub;
+    line-height: 0;
+}
+
+.obsah li p {
+    float: none;
+}
+
+.kat-vypis ul, .kat-vypis li {
+    float: none!Important;
+}
+
+.kat-vypis ul {
+    margin-left: 20px!Important;
+    list-style: none;
+}
+
+.kat-vypis ul ul {
+    list-style: square;
+}
+
+.kat-vypis ul ul ul {
+    margin-top: 10px;
+    list-style: circle;
+}
+
+#article-chapters-button {
+    display: none;
+}
+
+/*article-chapters li {
+    margin: 0!Important;
+    padding: 0!Important;
+}*/
+
+.invisible {
+    position: absolute;
+    top: -10000px;
+}
+
+.previouslink {
+    float: left;
+}
+
+.nextlink {
+    float: right;
+}
+
+.headerlink {
+    font-size: 70%;
+}
+
+.with-border {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.with-margin {
+    margin-bottom: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.with-border td, .with-border th {
+    border: 1px solid #aaa;
+    padding: 1px 4px;
+}
+
+.with-padding td {
+    padding: 3px 6px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.ciphertool td {
+    vertical-align: middle;
+}
+
+.ciphertool input[type=text] {
+    width: 400px;
+}
+
+.ciphertool input[type=submit] {
+    margin-top: 20px;
+}
+
+.cracktool textarea, .ciphertool textarea {
+    width: 400px;
+    height: 130px;
+}
+
+.vspace {
+    padding-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.ciphertool {
+    clear: both;
+}
+
+#vigeneruv-ctverec-platno table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0 3px;
+}
+
+#vigeneruv-ctverec-platno {
+    clear: both;
+    margin: 20px 0;
+}
+
+#vigeneruv-ctverec-platno tr:hover, .hover, table.highlighttr tr:hover {
+    background-color: rgba(175,175,175,.3);
+}
+
+.ajaxloader {
+    padding-left: 15px;
+    display: none;
+}
+
+#content table, #content form {
+    clear: both;
+}
+
+.highlightkey {
+    color: red;
+}
+
+.courier {
+    font-family: courier;
+    font-size: 13px;
+}
+
+.GodBlessEUCookies {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    z-index: 1000;
+    text-align: center;
+}
+
+.GodBlessEUCookies button {
+    background: green;
+    color: white;
+}

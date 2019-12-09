@@ -1,0 +1,129 @@
+HTTrack3.49-2 launched on Sun, 08 Dec 2019 17:58:40 at https://www.karaoketexty.cz/nejzobrazovanejsi-pisne +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.karaoketexty.cz/nejzobrazovanejsi-pisne -O "~home/websites/mara/texty" -N0 -s2 -p7 -D -a -K0 -c4 -%k -r3 -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:02:33	Warning: 	Link https://www.karaoketexty.cz/kecarna/strana-1 not scanned (follow robots meta tag)
+18:27:28	Error: 	Exit requested by shell or user
+18:27:29	Warning: 	Link https://www.karaoketexty.cz/default/questionary/likeDislike not scanned (follow robots meta tag)
+18:27:29	Warning: 	Link https://www.karaoketexty.cz/podminky-uziti not scanned (follow robots meta tag)
+18:27:29	Error: 	"Not Found" (404) at link https://www.karaoketexty.cz/https: (from https://www.karaoketexty.cz/nejzobrazovanejsi-pisne)
+18:27:29	Error: 	"Not Found" (404) at link https://www.karaoketexty.cz/GET (from https://www.karaoketexty.cz/nejzobrazovanejsi-pisne)
+18:27:30	Error: 	"Forbidden" (403) at link https://www.karaoketexty.cz/auth/noSigned (from https://www.karaoketexty.cz/)
+18:27:31	Error: 	"Not Found" (404) at link https://www.karaoketexty.cz/user/deactivated (from https://www.karaoketexty.cz/playlisty)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/questionary/likeDislike not scanned (follow robots meta tag)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=943605 not scanned (follow robots meta tag)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=29838 not scanned (follow robots meta tag)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=29835 not scanned (follow robots meta tag)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=3063 not scanned (follow robots meta tag)
+18:27:34	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=928302 not scanned (follow robots meta tag)
+18:27:35	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=899306 not scanned (follow robots meta tag)
+18:27:35	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=904574 not scanned (follow robots meta tag)
+18:27:35	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=288990 not scanned (follow robots meta tag)
+18:27:35	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=44238 not scanned (follow robots meta tag)
+18:27:35	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=5491 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=951274 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=956110 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=845141 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=44242 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=44241 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=44239 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=3664 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=5577 not scanned (follow robots meta tag)
+18:27:36	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=44247 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=949416 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=947665 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=727343 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=954379 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=955948 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=921970 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=943970 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=900907 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=955090 not scanned (follow robots meta tag)
+18:27:37	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=955081 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=921958 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=956107 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=956367 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=565058 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=793929 not scanned (follow robots meta tag)
+18:27:38	Warning: 	Link https://www.karaoketexty.cz/default/notify/notifyBadContent?sid=903822 not scanned (follow robots meta tag)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/ (from https://www.karaoketexty.cz/nejzobrazovanejsi-pisne)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/p/stc/lp-the-best-1121204
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/p/stc/lp-the-best-1121204 (from https://www.karaoketexty.cz/)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/p/stc/rock-metal-piano-213006
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/p/stc/rock-metal-piano-213006 (from https://www.karaoketexty.cz/)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/p/stc/x-japan-a-yoshiki-1200684
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/p/stc/x-japan-a-yoshiki-1200684 (from https://www.karaoketexty.cz/)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/p/stc/ceske-a-slovenske-hity-183744
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/p/stc/ceske-a-slovenske-hity-183744 (from https://www.karaoketexty.cz/)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/p/stc/yoshiki-lidr-x-japan-1210099
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/p/stc/yoshiki-lidr-x-japan-1210099 (from https://www.karaoketexty.cz/)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/one-direction-35171/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/one-direction-35171/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/bieber-justin-28398/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/bieber-justin-28398/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/cyrus-miley-10867/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/cyrus-miley-10867/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/rihanna-1999/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/rihanna-1999/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/linkin-park-366/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/linkin-park-366/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/perry-katy-11662/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/perry-katy-11662/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/green-day-119/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/green-day-119/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/kabat-17/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/kabat-17/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/shakira-3650/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/shakira-3650/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/pink-861/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/pink-861/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/mandrage-4309/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/mandrage-4309/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/kesha-30125/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/kesha-30125/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/rytmus-3571/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/rytmus-3571/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/beyonce-2614/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/beyonce-2614/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/klus-tomas-11118/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/klus-tomas-11118/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/david-guetta-3636/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/david-guetta-3636/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/simple-plan-567/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/simple-plan-567/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/cristovao-ben-29970/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/cristovao-ben-29970/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/xindl-x-13780/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/xindl-x-13780/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/evanescence-612/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/evanescence-612/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/iglesias-enrique-2115/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/iglesias-enrique-2115/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/pink-angels-10763/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/pink-angels-10763/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/seconds-to-mars-3798/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/seconds-to-mars-3798/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/osment-emily-10849/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/osment-emily-10849/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/paramore-10174/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/paramore-10174/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/slipknot-5461/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/slipknot-5461/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/efron-zac-4878/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/efron-zac-4878/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Warning: 	File not added due to mirror cancel: https://www.karaoketexty.cz/soundtrack-h-o-staci-pridat-vodu-12317/fanklub/strana-1
+18:27:38	Error: 	"mirror stopped by user" (-1) at link https://www.karaoketexty.cz/soundtrack-h-o-staci-pridat-vodu-12317/fanklub/strana-1 (from https://www.karaoketexty.cz/fankluby/strana-1)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/ZbMDtIOl1lc/1.jpg (from https://www.karaoketexty.cz/p/ts/top-songs-473552)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi//1.jpg (from https://www.karaoketexty.cz/p/ts/top-songs-473552)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/NQs9jySUc9w/2.jpg (from https://www.karaoketexty.cz/texty-pisni/vanocni-koledy/rolnicky-29838)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/4FnveHiDEYk/2.jpg (from https://www.karaoketexty.cz/texty-pisni/lady-gaga/shallow-feat-bradley-cooper-899306)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/6YK0qvh4ym8/2.jpg (from https://www.karaoketexty.cz/texty-pisni/vanocni-koledy/ticha-noc-svata-noc-44242)
+18:27:38	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/amQe_LKB78M/2.jpg (from https://www.karaoketexty.cz/texty-pisni/soundtrack-ledove-kralovstvi/najednou-565058)
+
+HTTrack Website Copier/3.49-2 mirror complete in 28 minutes 58 seconds : 1586 links scanned, 1575 files written (69825862 bytes overall) [20216084 bytes received at 11631 bytes/sec], 67926524 bytes transferred using HTTP compression in 1258 files, ratio 25%, 8.5 requests per connection
+(45 errors, 73 warnings, 0 messages)

@@ -1,15 +1,17 @@
+<!-- Autor: Šimon Šesták (xsesta06) -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Saved webs</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css"></link>
+  <link rel="stylesheet" href="./saved_webs.css" type="text/css"></link>
 </head>
 
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8" style="background-color: #DFDFDF; padding-top: 3.5%; min-height: 1000px">
+      <div class="col-sm-8 right-column">
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
@@ -18,9 +20,10 @@
               </a>
               <div class="caption">
                 <div class="container-fluid">
-                  <div class="row" style="display:flex; align-items: center">
+                  <input class="star" type="checkbox" title="bookmark page">
+                  <div class="row card-caption">
                     <div class="col-md-3">
-                      <img id="updated" src="./img/icons/success.png" style="width: 75%">
+                      <img id="updated" src="./img/icons/success.png" class="icon-width">
                     </div>
                     <div class="col-sm-8">
                       <a href="https://materializecss.com/">
@@ -30,12 +33,13 @@
                     </div>
                     <div class="col-md-3 dropdown">
                       <a href="#" id="imageDropdown" data-toggle="dropdown">
-                        <img id="menu" src="./img/icons/menu.png" style="width: 75%">
+                        <img id="menu" src="./img/icons/menu.png" class="icon-width">
                       </a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage versions</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rename</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Move</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="favorite_1">Add Favorite</a></li>
                         <li role="presentation" class="divider"></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delete</a></li>
                       </ul>
@@ -53,9 +57,10 @@
               </a>
               <div class="caption">
                 <div class="container-fluid">
-                  <div class="row" style="display:flex; align-items: center">
+                  <input class="star" type="checkbox" title="bookmark page" checked>
+                  <div class="row card-caption">
                     <div class="col-md-3">
-                      <img id="updated" src="./img/icons/error.png" style="width: 75%">
+                      <img id="updated" src="./img/icons/error.png" class="icon-width">
                     </div>
                     <div class="col-sm-8">
                       <a href="https://developer.chrome.com/apps/storage">
@@ -65,12 +70,13 @@
                     </div>
                     <div class="col-md-3 dropdown">
                       <a href="#" id="imageDropdown" data-toggle="dropdown">
-                        <img id="menu" src="./img/icons/menu.png" style="width: 75%">
+                        <img id="menu" src="./img/icons/menu.png" class="icon-width">
                       </a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage versions</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rename</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Move</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="favorite_2">Add Favorite</a></li>
                         <li role="presentation" class="divider"></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delete</a></li>
                       </ul>
@@ -89,9 +95,10 @@
               </a>
               <div class="caption">
                 <div class="container-fluid">
-                  <div class="row" style="display:flex; align-items: center">
+                  <input class="star" type="checkbox" title="bookmark page" checked>
+                  <div class="row card-caption">
                     <div class="col-md-3">
-                      <img id="updated" src="./img/icons/warning.png" style="width: 75%">
+                      <img id="updated" src="./img/icons/warning.png" class="icon-width">
                     </div>
                     <div class="col-sm-8">
                       <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR3YW5J2FjL4LX4bdj1XtLcPxmq-HyNF_gbUr63i78MiEyU6okiIZuoUIEg">
@@ -100,12 +107,13 @@
                     </div>
                     <div class="col-md-3 dropdown">
                       <a href="#" id="imageDropdown" data-toggle="dropdown">
-                        <img id="menu" src="./img/icons/menu.png" style="width: 75%">
+                        <img id="menu" src="./img/icons/menu.png" class="icon-width">
                       </a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage versions</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rename</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Move</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="favorite_3">Add Favorite</a></li>
                         <li role="presentation" class="divider"></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delete</a></li>
                       </ul>
@@ -124,9 +132,10 @@
               </a>
               <div class="caption">
                 <div class="container-fluid">
-                  <div class="row" style="display:flex; align-items: center">
+                  <input class="star" type="checkbox" title="bookmark page" checked>
+                  <div class="row card-caption">
                     <div class="col-md-3">
-                      <img id="updated" src="./img/icons/success.png" style="width: 75%">
+                      <img id="updated" src="./img/icons/success.png" class="icon-width">
                     </div>
                     <div class="col-sm-8">
                       <a href="https://getbootstrap.com/">
@@ -136,12 +145,13 @@
                     </div>
                     <div class="col-md-3 dropdown">
                       <a href="#" id="imageDropdown" data-toggle="dropdown">
-                        <img id="menu" src="./img/icons/menu.png" style="width: 75%">
+                        <img id="menu" src="./img/icons/menu.png" class="icon-width">
                       </a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage versions</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rename</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Move</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" id="favorite_4">Add Favorite</a></li>
                         <li role="presentation" class="divider"></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Delete</a></li>
                       </ul>
@@ -155,7 +165,7 @@
   
       </div>
 
-      <div class="col-sm-4 h-100" style="background-color:  #C0C0C0; padding-top: 3.5%; font-weight: bold; min-height: 1000px">
+      <div class="col-sm-4 h-100 left-column">
         <div class="text-center text-primary"><h3>Presets</h3></div>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-primary active">
@@ -169,25 +179,25 @@
           </label>
         </div>
 
-        <div class="custom-control custom-checkbox list-group" style="margin-top: 3.5%">
+        <div class="custom-control custom-checkbox list-group margin-buttoms">
           <div class="list-group-item">
-            <input type="checkbox" class="custom-control-input" id="customCheck1" style="margin: 0">
-            <label class="text-primary text-center" for="customCheck1" style="padding-left: 3%">Pictures</label>  
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="text-primary checkbox-padding" for="customCheck1" >Pictures</label>  
           </div>
           
           <div class="list-group-item">
-            <input type="checkbox" class="custom-control-input" id="customCheck2" style="margin: 0">
-            <label class="text-primary text-center" for="customCheck2" style="padding-left: 3%">Sounds</label>  
+            <input type="checkbox" class="custom-control-input" id="customCheck2">
+            <label class="text-primary checkbox-padding" for="customCheck2">Sounds</label>  
           </div>
 
           <div class="list-group-item">
-            <input type="checkbox" class="custom-control-input" id="customCheck3" style="margin: 0">
-            <label class="text-primary text-center" for="customCheck3" style="padding-left: 3%">Videos</label>  
+            <input type="checkbox" class="custom-control-input" id="customCheck3">
+            <label class="text-primary checkbox-padding" for="customCheck3">Videos</label>  
           </div>
 
         </div>
 
-        <ul class="list-group" style="margin-top: 3.5%">
+        <ul class="list-group margin-buttoms">
           <li class="list-group-item d-flex text-primary">
             Internal
             <input type="text" name="internal" placeholder="10" style="max-width: 30px; margin-left: 16%">

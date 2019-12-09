@@ -6,6 +6,10 @@
         "default_popup": "drop_down.html",
         "default_title": "Offliner"
     },
+
+    "chrome_url_overrides" : {
+      "newtab" : "offliner_new_tab_page.html"
+    },
     "permissions": [
       "storage",
       "desktopCapture",

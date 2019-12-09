@@ -1,0 +1,41 @@
+HTTrack3.49-2 launched on Sun, 08 Dec 2019 10:59:12 at https://zonglovani.info/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://zonglovani.info/ -O "~home/websites/mara/zonglovani" -n -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:26:59	Error: 	"Not Found" (404) at link https://zonglovani.info/juggling-tv.html (from https://zonglovani.info/odkazy.html)
+11:29:28	Error: 	Exit requested by shell or user
+11:29:29	Warning: 	File not added due to mirror cancel: https://zonglovani.info/animace/img/multi-shower.gif
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/jak-zacit.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/navody/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/navody/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/2/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/2/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/3/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/3/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/4/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/4/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/5/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/5/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kruhy/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kruhy/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kuzely/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kuzely/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kuzely/3/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kuzely/3/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kuzely/passing/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kuzely/passing/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/diabolo/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/diabolo/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/animace/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/animace/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/download/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/download/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/img/p/podporab.png (from https://zonglovani.info/podpor-zongleruv-slabikar.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/animace/en/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/animace/en/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/animace/siteswap/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/animace/siteswap/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/chudy/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/chudy/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/css/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/css/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kruhy/2/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kruhy/2/2v1.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kruhy/3/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kruhy/3/kaskada.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/kruhy/4/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/kruhy/4/fontana.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/img/k/kuzelka-albatros-s.jpg (from https://zonglovani.info/kuzely/druhy.html)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/micky/6/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/micky/6/)
+11:29:29	Error: 	"Not Found" (404) at link https://zonglovani.info/pexeso/name=Novinky;action-uri=/novinky/;icon-uri=/img/n/news.ico (from https://zonglovani.info/pexeso/)
+11:29:29	Warning: 	File not added due to mirror cancel: https://zonglovani.info/animace/img/multi-shower.gif
+11:29:29	Error: 	"mirror stopped by user" (-1) at link https://zonglovani.info/animace/img/multi-shower.gif (from https://zonglovani.info/animace/en/multi-shower.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 30 minutes 17 seconds : 1732 links scanned, 1705 files written (132008900 bytes overall) [129763395 bytes received at 71416 bytes/sec], 5675782 bytes transferred using HTTP compression in 640 files, ratio 28%, 32.8 requests per connection
+(28 errors, 2 warnings, 0 messages)

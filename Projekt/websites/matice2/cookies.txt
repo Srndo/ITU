@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.google.com	TRUE	/	FALSE	1999999999	NID	193=X39Yl5iWvixFfO2hB2TEhBme7FS-NjEf6OL1nooyPqKfj8-tMXSkuPjDRshCR3w8GYp1T59yrUq1hsXJWpO0yEn7_iiyYOrJfgysjz95F-EFhhciLMcUTL-a1PXf1HMm11b2X8QJn-eCcovxsl1sbiAOmLybU1tSmD_hQFb7B2U
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	apbct_site_landing_ts	1575803707
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	ct_sfw_pass_key	9228aa57c61ad27acc396505ae70878c
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	apbct_timestamp	1575803709
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	apbct_prev_referer	http%3A%2F%2Fmatematika.cz%2Fmatice
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	apbct_page_hits	2
+www.konstrukter.cz	TRUE	/	FALSE	1999999999	apbct_cookies_test	%257B%2522cookies_names%2522%253A%255B%2522apbct_timestamp%2522%252C%2522apbct_prev_referer%2522%252C%2522apbct_site_landing_ts%2522%252C%2522apbct_page_hits%2522%255D%252C%2522check_value%2522%253A%2522e1e9b0d0319e2a1438532d82982d1d74%2522%257D
+
