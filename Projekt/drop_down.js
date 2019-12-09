@@ -32,7 +32,7 @@ function setLinkMask(url) {
 
 // Inicializácia názvu uloženej stránky title elementom
 function setSaveName(title) {
-	$('#name')[0].value = ;
+	$('#name')[0].value = title;
 	$('#name')[0].focus();
 }
 
